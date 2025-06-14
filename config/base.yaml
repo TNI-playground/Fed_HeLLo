@@ -1,0 +1,28 @@
+###########################################
+############# global argument #############
+###########################################
+
+pub_set: 10 # number of data in validation set
+num_users: 600 # number of users: K
+num_selected_users: 100 # number of selected users: 100, for shakespeare, it is 10
+round: 10 # rounds of training
+
+###########################################
+############# local argument ##############
+###########################################
+
+tau: 10 # number of local epochs
+batch_size: 10 # local batch size
+test_batch_size: 128
+local_lr: 0.125 # local learning rate
+decay_weight: 0.99 # learning rate decay weight default 0.5
+
+###########################################
+#####communication network arguments#######
+###########################################
+
+topology: 'disconnected' # topology name
+
+##########
+attack: None
+defend: None

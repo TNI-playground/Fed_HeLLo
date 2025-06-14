@@ -1,0 +1,40 @@
+###########################################
+############# global argument #############
+###########################################
+
+pub_set: 10 # number of data in validation set
+num_users: 715 # number of users: K
+num_selected_users: 100 # number of selected users: 100, for shakespeare, it is 10
+round: 1000 # rounds of training
+
+###########################################
+##global server update rule hyperparameter#
+###########################################
+
+global_momentum: 0.9 # global momentum
+beta_1: 0.9 # global Adam
+beta_2: 0.99
+kappa: 1e-5
+
+###########################################
+############# local argument ##############
+###########################################
+
+tau: 1 # number of local epochs
+iteration: 10 * 10 # args.round * args.tau
+batch_size: 4 # local batch size
+test_batch_size: 128
+local_lr: 1 # local learning rate
+local_momentum: 0.9 # SGD Momentum default 0.5
+decay_weight: 0.99 # learning rate decay weight default 0.5
+clip: 1 # clipping threshold
+
+###########################################
+#####communication network arguments#######
+###########################################
+
+topology: 'disconnected' # topology name
+
+##########
+attack: None
+defend: None

@@ -1,0 +1,58 @@
+_base_ : ['../../base_ffm.yaml']
+
+############## base differential #############
+num_users: 100 # number of users: K
+num_selected_users: 10 # number of selected users: 100, for shakespeare, it is 10, femnist 20
+round: 500 # rounds of training
+tau: 1 # 5
+batch_size: 128 # local batch size
+optimizer: adamw
+local_lr: 0.01 # local learning rate default:0.005
+local_momentum: 0.5 # SGD Momentum default 0.5
+decay_weight: 0.99 # learning rate decay weight default 0.5
+global_momentum: 0.9 # global momentum
+# clip: 1 # clipping threshold
+########### base differential ends ###########
+
+lr_scheduler_type: linear
+lr_step_size: 1
+optimizer_weight_decay: 0.0
+
+# gradient_accumulation_steps: 1
+# checkpointing_steps: 1
+# per_device_train_batch_size: 8
+# weight_decay: 0.0
+# num_warmup_steps: 0
+# use_trained: False
+
+method: ffm_fedavg
+attack: None
+defend: None
+# Model
+model: google/vit-base-patch16-224-in21k
+peft: lora
+
+model_heterogeneity: depthfl
+heterogeneous_group: [1/3, 1/3, 1/3]
+lora_layer: 12
+heterogeneous_group0_lora: [] # [0, 2, 4, 6, 8, 10]  [0, 1, 2, 4, 5, 6, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+heterogeneous_group1_lora: []
+heterogeneous_group2_lora: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+# Dataset configure
+data_type: image
+dataset: cifar100
+iid: 1 # whether i.i.d or not
+
+#####################################
+########## non iid type #############
+#####################################
+# noniid_type: pathological # pathological, dirichlet(#Samples)
+########## pathological ########
+# pat_num_cls: 8 # 3 for cifar10
+########## dirichlet ###########
+# dir_cls_alpha: 0.3 # 1
+################################
+##### Parition Distribution ####
+################################
+# partition_mode: uni # uni, dir

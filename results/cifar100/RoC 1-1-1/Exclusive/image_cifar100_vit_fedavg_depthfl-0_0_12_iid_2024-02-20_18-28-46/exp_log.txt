@@ -1,0 +1,4733 @@
+./log/cifar100/google/vit-base-patch16-224-in21k/ffm_fedavg/experiments/cifar100_vit_lora/0_0_12/image_cifar100_vit_fedavg_depthfl-0_0_12_iid_2024-02-20_18-28-46
+############ Case 0 ############
+--------------- data setup ---------------------------------
+length of dataset:60000
+num. of training data:50000
+num. of testing data:10000
+num. of users:100
+average num. of samples per user:500
+--------------- log path -----------------------------------
+./log/cifar100/google/vit-base-patch16-224-in21k/ffm_fedavg/experiments/cifar100_vit_lora/0_0_12/image_cifar100_vit_fedavg_depthfl-0_0_12_iid_2024-02-20_18-28-46
+--------------- model setup --------------------------------
+model dim: 86542280
+--------------- training... --------------------------------
+Round: 0/500
+Total local training loss is: 4.614990234375
+Total local training loss is: 4.617919921875
+Total local training loss is: 4.620361328125
+Total local training loss is: 4.622467041015625
+Total local training loss is: 4.614898681640625
+attack:None
+defend:None
+{'accuracy': 0.0139}
+t   0: train_loss = 4.618, norm = 5.331, test_acc = 0.014
+checkpoint ckpt_0.pt is saved...
+Round: 1/500
+Total local training loss is: 4.61187744140625
+Total local training loss is: 4.612274169921875
+Total local training loss is: 4.59930419921875
+Total local training loss is: 4.625213623046875
+attack:None
+defend:None
+{'accuracy': 0.0226}
+t   1: train_loss = 4.612, norm = 7.522, test_acc = 0.023
+checkpoint ckpt_1.pt is saved...
+Round: 2/500
+Total local training loss is: 4.596832275390625
+Total local training loss is: 4.586883544921875
+Total local training loss is: 4.5838623046875
+attack:None
+defend:None
+{'accuracy': 0.0529}
+t   2: train_loss = 4.589, norm = 7.551, test_acc = 0.053
+checkpoint ckpt_2.pt is saved...
+Round: 3/500
+Total local training loss is: 4.55487060546875
+Total local training loss is: 4.559326171875
+Total local training loss is: 4.5562744140625
+attack:None
+defend:None
+{'accuracy': 0.0624}
+t   3: train_loss = 4.557, norm = 7.568, test_acc = 0.062
+checkpoint ckpt_3.pt is saved...
+Round: 4/500
+Total local training loss is: 4.542022705078125
+Total local training loss is: 4.54437255859375
+attack:None
+defend:None
+{'accuracy': 0.1151}
+t   4: train_loss = 4.543, norm = 7.576, test_acc = 0.115
+checkpoint ckpt_4.pt is saved...
+Round: 5/500
+Total local training loss is: 4.488128662109375
+Total local training loss is: 4.509002685546875
+attack:None
+defend:None
+{'accuracy': 0.16}
+t   5: train_loss = 4.499, norm = 7.574, test_acc = 0.160
+checkpoint ckpt_5.pt is saved...
+Round: 6/500
+Total local training loss is: 4.397125244140625
+Total local training loss is: 4.4376678466796875
+Total local training loss is: 4.46893310546875
+attack:None
+defend:None
+{'accuracy': 0.1917}
+t   6: train_loss = 4.435, norm = 7.583, test_acc = 0.192
+checkpoint ckpt_6.pt is saved...
+Round: 7/500
+Total local training loss is: 4.3647003173828125
+Total local training loss is: 4.359832763671875
+Total local training loss is: 4.3528289794921875
+Total local training loss is: 4.359771728515625
+Total local training loss is: 4.35693359375
+attack:None
+defend:None
+{'accuracy': 0.1221}
+t   7: train_loss = 4.359, norm = 7.584, test_acc = 0.122
+checkpoint ckpt_7.pt is saved...
+Round: 8/500
+attack:None
+defend:None
+{'accuracy': 0.1221}
+t   8: train_loss = 100.000, norm = 100.000, test_acc = 0.122
+checkpoint ckpt_8.pt is saved...
+Round: 9/500
+Total local training loss is: 4.3809967041015625
+Total local training loss is: 4.3595733642578125
+Total local training loss is: 4.349212646484375
+Total local training loss is: 4.3407745361328125
+attack:None
+defend:None
+{'accuracy': 0.1302}
+t   9: train_loss = 4.358, norm = 7.592, test_acc = 0.130
+checkpoint ckpt_9.pt is saved...
+Round: 10/500
+Total local training loss is: 4.3752899169921875
+Total local training loss is: 4.3697357177734375
+Total local training loss is: 4.323211669921875
+Total local training loss is: 4.375213623046875
+attack:None
+defend:None
+{'accuracy': 0.2131}
+t  10: train_loss = 4.361, norm = 7.590, test_acc = 0.213
+checkpoint ckpt_10.pt is saved...
+Round: 11/500
+Total local training loss is: 4.3824920654296875
+Total local training loss is: 4.367828369140625
+Total local training loss is: 4.3258209228515625
+Total local training loss is: 4.3370208740234375
+attack:None
+defend:None
+{'accuracy': 0.2442}
+t  11: train_loss = 4.353, norm = 7.592, test_acc = 0.244
+checkpoint ckpt_11.pt is saved...
+Round: 12/500
+Total local training loss is: 4.26458740234375
+Total local training loss is: 4.2713470458984375
+Total local training loss is: 4.3050689697265625
+Total local training loss is: 4.2706298828125
+attack:None
+defend:None
+{'accuracy': 0.2509}
+t  12: train_loss = 4.278, norm = 7.589, test_acc = 0.251
+checkpoint ckpt_12.pt is saved...
+Round: 13/500
+Total local training loss is: 4.1495513916015625
+Total local training loss is: 4.15252685546875
+Total local training loss is: 4.1897735595703125
+attack:None
+defend:None
+{'accuracy': 0.2521}
+t  13: train_loss = 4.164, norm = 7.589, test_acc = 0.252
+checkpoint ckpt_13.pt is saved...
+Round: 14/500
+Total local training loss is: 4.2014007568359375
+Total local training loss is: 4.17657470703125
+attack:None
+defend:None
+{'accuracy': 0.2625}
+t  14: train_loss = 4.189, norm = 7.592, test_acc = 0.263
+checkpoint ckpt_14.pt is saved...
+Round: 15/500
+Total local training loss is: 4.13134765625
+Total local training loss is: 4.196380615234375
+Total local training loss is: 4.1198272705078125
+attack:None
+defend:None
+{'accuracy': 0.2535}
+t  15: train_loss = 4.149, norm = 7.589, test_acc = 0.254
+checkpoint ckpt_15.pt is saved...
+Round: 16/500
+Total local training loss is: 4.173065185546875
+Total local training loss is: 4.1796722412109375
+Total local training loss is: 4.1889801025390625
+attack:None
+defend:None
+{'accuracy': 0.3408}
+t  16: train_loss = 4.181, norm = 7.594, test_acc = 0.341
+checkpoint ckpt_16.pt is saved...
+Round: 17/500
+Total local training loss is: 4.1191253662109375
+Total local training loss is: 4.112152099609375
+Total local training loss is: 4.1179656982421875
+Total local training loss is: 4.142303466796875
+Total local training loss is: 4.1473846435546875
+attack:None
+defend:None
+{'accuracy': 0.3507}
+t  17: train_loss = 4.128, norm = 7.591, test_acc = 0.351
+checkpoint ckpt_17.pt is saved...
+Round: 18/500
+Total local training loss is: 4.05609130859375
+Total local training loss is: 4.0442657470703125
+Total local training loss is: 4.055633544921875
+Total local training loss is: 4.0682220458984375
+attack:None
+defend:None
+{'accuracy': 0.3462}
+t  18: train_loss = 4.056, norm = 7.594, test_acc = 0.346
+checkpoint ckpt_18.pt is saved...
+Round: 19/500
+Total local training loss is: 4.05755615234375
+Total local training loss is: 4.0301055908203125
+Total local training loss is: 4.077911376953125
+Total local training loss is: 4.1445770263671875
+Total local training loss is: 4.0370330810546875
+attack:None
+defend:None
+{'accuracy': 0.4039}
+t  19: train_loss = 4.069, norm = 7.592, test_acc = 0.404
+checkpoint ckpt_19.pt is saved...
+Round: 20/500
+Total local training loss is: 4.0114898681640625
+Total local training loss is: 3.9963531494140625
+Total local training loss is: 3.9923553466796875
+Total local training loss is: 4.0083160400390625
+attack:None
+defend:None
+{'accuracy': 0.3967}
+t  20: train_loss = 4.002, norm = 7.591, test_acc = 0.397
+checkpoint ckpt_20.pt is saved...
+Round: 21/500
+Total local training loss is: 3.96112060546875
+attack:None
+defend:None
+{'accuracy': 0.4033}
+t  21: train_loss = 3.961, norm = 7.593, test_acc = 0.403
+checkpoint ckpt_21.pt is saved...
+Round: 22/500
+Total local training loss is: 3.998199462890625
+Total local training loss is: 3.9886932373046875
+Total local training loss is: 3.992706298828125
+attack:None
+defend:None
+{'accuracy': 0.4129}
+t  22: train_loss = 3.993, norm = 7.591, test_acc = 0.413
+checkpoint ckpt_22.pt is saved...
+Round: 23/500
+Total local training loss is: 3.96484375
+Total local training loss is: 3.97882080078125
+Total local training loss is: 4.0043792724609375
+attack:None
+defend:None
+{'accuracy': 0.415}
+t  23: train_loss = 3.983, norm = 7.595, test_acc = 0.415
+checkpoint ckpt_23.pt is saved...
+Round: 24/500
+Total local training loss is: 3.8946533203125
+Total local training loss is: 3.96514892578125
+attack:None
+defend:None
+{'accuracy': 0.4429}
+t  24: train_loss = 3.930, norm = 7.593, test_acc = 0.443
+checkpoint ckpt_24.pt is saved...
+Round: 25/500
+Total local training loss is: 3.935943603515625
+Total local training loss is: 3.9025726318359375
+Total local training loss is: 3.96923828125
+attack:None
+defend:None
+{'accuracy': 0.4574}
+t  25: train_loss = 3.936, norm = 7.593, test_acc = 0.457
+checkpoint ckpt_25.pt is saved...
+Round: 26/500
+Total local training loss is: 3.868682861328125
+Total local training loss is: 3.9418487548828125
+attack:None
+defend:None
+{'accuracy': 0.4777}
+t  26: train_loss = 3.905, norm = 7.594, test_acc = 0.478
+checkpoint ckpt_26.pt is saved...
+Round: 27/500
+Total local training loss is: 3.83837890625
+Total local training loss is: 3.8471221923828125
+Total local training loss is: 3.8681793212890625
+Total local training loss is: 3.8195037841796875
+attack:None
+defend:None
+{'accuracy': 0.4883}
+t  27: train_loss = 3.843, norm = 7.593, test_acc = 0.488
+checkpoint ckpt_27.pt is saved...
+Round: 28/500
+Total local training loss is: 3.8385772705078125
+Total local training loss is: 3.8619384765625
+Total local training loss is: 3.8083648681640625
+attack:None
+defend:None
+{'accuracy': 0.5061}
+t  28: train_loss = 3.836, norm = 7.593, test_acc = 0.506
+checkpoint ckpt_28.pt is saved...
+Round: 29/500
+Total local training loss is: 3.8409271240234375
+Total local training loss is: 3.74774169921875
+attack:None
+defend:None
+{'accuracy': 0.5267}
+t  29: train_loss = 3.794, norm = 7.593, test_acc = 0.527
+checkpoint ckpt_29.pt is saved...
+Round: 30/500
+Total local training loss is: 3.7709503173828125
+Total local training loss is: 3.78369140625
+Total local training loss is: 3.772369384765625
+Total local training loss is: 3.80908203125
+attack:None
+defend:None
+{'accuracy': 0.522}
+t  30: train_loss = 3.784, norm = 7.593, test_acc = 0.522
+checkpoint ckpt_30.pt is saved...
+Round: 31/500
+Total local training loss is: 3.79443359375
+Total local training loss is: 3.833740234375
+attack:None
+defend:None
+{'accuracy': 0.5183}
+t  31: train_loss = 3.814, norm = 7.594, test_acc = 0.518
+checkpoint ckpt_31.pt is saved...
+Round: 32/500
+Total local training loss is: 3.7230224609375
+Total local training loss is: 3.785797119140625
+Total local training loss is: 3.775909423828125
+Total local training loss is: 3.7894744873046875
+attack:None
+defend:None
+{'accuracy': 0.5597}
+t  32: train_loss = 3.769, norm = 7.593, test_acc = 0.560
+checkpoint ckpt_32.pt is saved...
+Round: 33/500
+Total local training loss is: 3.715728759765625
+Total local training loss is: 3.8656768798828125
+Total local training loss is: 3.724365234375
+Total local training loss is: 3.7283172607421875
+attack:None
+defend:None
+{'accuracy': 0.559}
+t  33: train_loss = 3.759, norm = 7.594, test_acc = 0.559
+checkpoint ckpt_33.pt is saved...
+Round: 34/500
+Total local training loss is: 3.7034912109375
+Total local training loss is: 3.6765594482421875
+attack:None
+defend:None
+{'accuracy': 0.5188}
+t  34: train_loss = 3.690, norm = 7.593, test_acc = 0.519
+checkpoint ckpt_34.pt is saved...
+Round: 35/500
+Total local training loss is: 3.725189208984375
+Total local training loss is: 3.656219482421875
+Total local training loss is: 3.7427825927734375
+Total local training loss is: 3.6834716796875
+attack:None
+defend:None
+{'accuracy': 0.5681}
+t  35: train_loss = 3.702, norm = 7.593, test_acc = 0.568
+checkpoint ckpt_35.pt is saved...
+Round: 36/500
+Total local training loss is: 3.6181182861328125
+Total local training loss is: 3.5910491943359375
+Total local training loss is: 3.710906982421875
+attack:None
+defend:None
+{'accuracy': 0.5656}
+t  36: train_loss = 3.640, norm = 7.594, test_acc = 0.566
+checkpoint ckpt_36.pt is saved...
+Round: 37/500
+Total local training loss is: 3.69000244140625
+Total local training loss is: 3.6542816162109375
+Total local training loss is: 3.6407318115234375
+Total local training loss is: 3.7079620361328125
+attack:None
+defend:None
+{'accuracy': 0.5777}
+t  37: train_loss = 3.673, norm = 7.593, test_acc = 0.578
+checkpoint ckpt_37.pt is saved...
+Round: 38/500
+Total local training loss is: 3.6519927978515625
+Total local training loss is: 3.7756805419921875
+attack:None
+defend:None
+{'accuracy': 0.5705}
+t  38: train_loss = 3.714, norm = 7.593, test_acc = 0.571
+checkpoint ckpt_38.pt is saved...
+Round: 39/500
+Total local training loss is: 3.669677734375
+attack:None
+defend:None
+{'accuracy': 0.589}
+t  39: train_loss = 3.670, norm = 7.595, test_acc = 0.589
+checkpoint ckpt_39.pt is saved...
+Round: 40/500
+Total local training loss is: 3.6887664794921875
+Total local training loss is: 3.698883056640625
+Total local training loss is: 3.6142120361328125
+attack:None
+defend:None
+{'accuracy': 0.6156}
+t  40: train_loss = 3.667, norm = 7.596, test_acc = 0.616
+checkpoint ckpt_40.pt is saved...
+Round: 41/500
+Total local training loss is: 3.6275177001953125
+Total local training loss is: 3.6046295166015625
+Total local training loss is: 3.54461669921875
+Total local training loss is: 3.58929443359375
+attack:None
+defend:None
+{'accuracy': 0.5859}
+t  41: train_loss = 3.592, norm = 7.594, test_acc = 0.586
+checkpoint ckpt_41.pt is saved...
+Round: 42/500
+Total local training loss is: 3.679840087890625
+Total local training loss is: 3.632537841796875
+Total local training loss is: 3.668060302734375
+attack:None
+defend:None
+{'accuracy': 0.6049}
+t  42: train_loss = 3.660, norm = 7.596, test_acc = 0.605
+checkpoint ckpt_42.pt is saved...
+Round: 43/500
+Total local training loss is: 3.516082763671875
+Total local training loss is: 3.56719970703125
+Total local training loss is: 3.6029052734375
+Total local training loss is: 3.5646514892578125
+Total local training loss is: 3.5558624267578125
+attack:None
+defend:None
+{'accuracy': 0.6051}
+t  43: train_loss = 3.561, norm = 7.595, test_acc = 0.605
+checkpoint ckpt_43.pt is saved...
+Round: 44/500
+Total local training loss is: 3.68597412109375
+attack:None
+defend:None
+{'accuracy': 0.621}
+t  44: train_loss = 3.686, norm = 7.595, test_acc = 0.621
+checkpoint ckpt_44.pt is saved...
+Round: 45/500
+Total local training loss is: 3.611175537109375
+Total local training loss is: 3.5402679443359375
+attack:None
+defend:None
+{'accuracy': 0.6034}
+t  45: train_loss = 3.576, norm = 7.595, test_acc = 0.603
+checkpoint ckpt_45.pt is saved...
+Round: 46/500
+Total local training loss is: 3.5903167724609375
+Total local training loss is: 3.6598358154296875
+attack:None
+defend:None
+{'accuracy': 0.6236}
+t  46: train_loss = 3.625, norm = 7.595, test_acc = 0.624
+checkpoint ckpt_46.pt is saved...
+Round: 47/500
+Total local training loss is: 3.5612640380859375
+Total local training loss is: 3.508941650390625
+Total local training loss is: 3.64471435546875
+Total local training loss is: 3.593902587890625
+attack:None
+defend:None
+{'accuracy': 0.6146}
+t  47: train_loss = 3.577, norm = 7.596, test_acc = 0.615
+checkpoint ckpt_47.pt is saved...
+Round: 48/500
+Total local training loss is: 3.548370361328125
+Total local training loss is: 3.5487060546875
+Total local training loss is: 3.5225372314453125
+Total local training loss is: 3.512725830078125
+Total local training loss is: 3.5593414306640625
+attack:None
+defend:None
+{'accuracy': 0.6359}
+t  48: train_loss = 3.538, norm = 7.596, test_acc = 0.636
+checkpoint ckpt_48.pt is saved...
+Round: 49/500
+Total local training loss is: 3.5586090087890625
+Total local training loss is: 3.5394134521484375
+Total local training loss is: 3.58929443359375
+attack:None
+defend:None
+{'accuracy': 0.6379}
+t  49: train_loss = 3.562, norm = 7.597, test_acc = 0.638
+checkpoint ckpt_49.pt is saved...
+Round: 50/500
+Total local training loss is: 3.4623870849609375
+Total local training loss is: 3.599090576171875
+Total local training loss is: 3.430267333984375
+Total local training loss is: 3.5779266357421875
+attack:None
+defend:None
+{'accuracy': 0.6476}
+t  50: train_loss = 3.517, norm = 7.595, test_acc = 0.648
+checkpoint ckpt_50.pt is saved...
+Round: 51/500
+Total local training loss is: 3.5542755126953125
+Total local training loss is: 3.5624237060546875
+Total local training loss is: 3.5013885498046875
+Total local training loss is: 3.5132904052734375
+attack:None
+defend:None
+{'accuracy': 0.6556}
+t  51: train_loss = 3.533, norm = 7.596, test_acc = 0.656
+checkpoint ckpt_51.pt is saved...
+Round: 52/500
+Total local training loss is: 3.5272369384765625
+Total local training loss is: 3.496490478515625
+Total local training loss is: 3.499847412109375
+attack:None
+defend:None
+{'accuracy': 0.6662}
+t  52: train_loss = 3.508, norm = 7.595, test_acc = 0.666
+checkpoint ckpt_52.pt is saved...
+Round: 53/500
+Total local training loss is: 3.4463958740234375
+Total local training loss is: 3.472564697265625
+attack:None
+defend:None
+{'accuracy': 0.6646}
+t  53: train_loss = 3.459, norm = 7.596, test_acc = 0.665
+checkpoint ckpt_53.pt is saved...
+Round: 54/500
+Total local training loss is: 3.410858154296875
+Total local training loss is: 3.51214599609375
+attack:None
+defend:None
+{'accuracy': 0.6658}
+t  54: train_loss = 3.462, norm = 7.596, test_acc = 0.666
+checkpoint ckpt_54.pt is saved...
+Round: 55/500
+Total local training loss is: 3.4375457763671875
+Total local training loss is: 3.556610107421875
+Total local training loss is: 3.5095062255859375
+Total local training loss is: 3.5013427734375
+Total local training loss is: 3.3604736328125
+attack:None
+defend:None
+{'accuracy': 0.6876}
+t  55: train_loss = 3.473, norm = 7.596, test_acc = 0.688
+checkpoint ckpt_55.pt is saved...
+Round: 56/500
+Total local training loss is: 3.4519500732421875
+attack:None
+defend:None
+{'accuracy': 0.6396}
+t  56: train_loss = 3.452, norm = 7.597, test_acc = 0.640
+checkpoint ckpt_56.pt is saved...
+Round: 57/500
+Total local training loss is: 3.515167236328125
+Total local training loss is: 3.4445953369140625
+Total local training loss is: 3.46002197265625
+Total local training loss is: 3.5745086669921875
+Total local training loss is: 3.4718475341796875
+attack:None
+defend:None
+{'accuracy': 0.6744}
+t  57: train_loss = 3.493, norm = 7.596, test_acc = 0.674
+checkpoint ckpt_57.pt is saved...
+Round: 58/500
+Total local training loss is: 3.3602447509765625
+Total local training loss is: 3.4794158935546875
+Total local training loss is: 3.44586181640625
+Total local training loss is: 3.378997802734375
+Total local training loss is: 3.4260101318359375
+attack:None
+defend:None
+{'accuracy': 0.6775}
+t  58: train_loss = 3.418, norm = 7.596, test_acc = 0.677
+checkpoint ckpt_58.pt is saved...
+Round: 59/500
+Total local training loss is: 3.3540802001953125
+Total local training loss is: 3.3470611572265625
+Total local training loss is: 3.42694091796875
+Total local training loss is: 3.47491455078125
+Total local training loss is: 3.4564971923828125
+Total local training loss is: 3.397705078125
+Total local training loss is: 3.4922637939453125
+attack:None
+defend:None
+{'accuracy': 0.6876}
+t  59: train_loss = 3.421, norm = 7.596, test_acc = 0.688
+checkpoint ckpt_59.pt is saved...
+Round: 60/500
+Total local training loss is: 3.3176727294921875
+Total local training loss is: 3.44268798828125
+Total local training loss is: 3.447021484375
+Total local training loss is: 3.4053955078125
+Total local training loss is: 3.44586181640625
+Total local training loss is: 3.4347686767578125
+attack:None
+defend:None
+{'accuracy': 0.7003}
+t  60: train_loss = 3.416, norm = 7.596, test_acc = 0.700
+checkpoint ckpt_60.pt is saved...
+Round: 61/500
+Total local training loss is: 3.4644927978515625
+Total local training loss is: 3.417816162109375
+attack:None
+defend:None
+{'accuracy': 0.6932}
+t  61: train_loss = 3.441, norm = 7.596, test_acc = 0.693
+checkpoint ckpt_61.pt is saved...
+Round: 62/500
+Total local training loss is: 3.3170623779296875
+Total local training loss is: 3.4548187255859375
+Total local training loss is: 3.3333892822265625
+Total local training loss is: 3.3784942626953125
+Total local training loss is: 3.388671875
+Total local training loss is: 3.38720703125
+attack:None
+defend:None
+{'accuracy': 0.6803}
+t  62: train_loss = 3.377, norm = 7.596, test_acc = 0.680
+checkpoint ckpt_62.pt is saved...
+Round: 63/500
+Total local training loss is: 3.36920166015625
+Total local training loss is: 3.4121246337890625
+Total local training loss is: 3.37457275390625
+Total local training loss is: 3.381072998046875
+Total local training loss is: 3.505157470703125
+Total local training loss is: 3.3100128173828125
+attack:None
+defend:None
+{'accuracy': 0.7114}
+t  63: train_loss = 3.392, norm = 7.596, test_acc = 0.711
+checkpoint ckpt_63.pt is saved...
+Round: 64/500
+Total local training loss is: 3.288604736328125
+Total local training loss is: 3.41937255859375
+Total local training loss is: 3.335418701171875
+Total local training loss is: 3.354766845703125
+Total local training loss is: 3.442840576171875
+Total local training loss is: 3.4099578857421875
+attack:None
+defend:None
+{'accuracy': 0.7056}
+t  64: train_loss = 3.375, norm = 7.596, test_acc = 0.706
+checkpoint ckpt_64.pt is saved...
+Round: 65/500
+Total local training loss is: 3.3876190185546875
+Total local training loss is: 3.406280517578125
+Total local training loss is: 3.31683349609375
+Total local training loss is: 3.49066162109375
+attack:None
+defend:None
+{'accuracy': 0.7152}
+t  65: train_loss = 3.400, norm = 7.597, test_acc = 0.715
+checkpoint ckpt_65.pt is saved...
+Round: 66/500
+Total local training loss is: 3.3516998291015625
+Total local training loss is: 3.358856201171875
+Total local training loss is: 3.414825439453125
+Total local training loss is: 3.34259033203125
+attack:None
+defend:None
+{'accuracy': 0.7057}
+t  66: train_loss = 3.367, norm = 7.596, test_acc = 0.706
+checkpoint ckpt_66.pt is saved...
+Round: 67/500
+Total local training loss is: 3.3629913330078125
+Total local training loss is: 3.3702239990234375
+Total local training loss is: 3.3679656982421875
+Total local training loss is: 3.367889404296875
+attack:None
+defend:None
+{'accuracy': 0.7335}
+t  67: train_loss = 3.367, norm = 7.597, test_acc = 0.734
+checkpoint ckpt_67.pt is saved...
+Round: 68/500
+Total local training loss is: 3.2930145263671875
+Total local training loss is: 3.3162994384765625
+Total local training loss is: 3.354766845703125
+Total local training loss is: 3.221038818359375
+Total local training loss is: 3.3435211181640625
+attack:None
+defend:None
+{'accuracy': 0.7318}
+t  68: train_loss = 3.306, norm = 7.597, test_acc = 0.732
+checkpoint ckpt_68.pt is saved...
+Round: 69/500
+Total local training loss is: 3.37506103515625
+Total local training loss is: 3.3337554931640625
+Total local training loss is: 3.398040771484375
+Total local training loss is: 3.29119873046875
+attack:None
+defend:None
+{'accuracy': 0.7129}
+t  69: train_loss = 3.350, norm = 7.597, test_acc = 0.713
+checkpoint ckpt_69.pt is saved...
+Round: 70/500
+Total local training loss is: 3.46783447265625
+Total local training loss is: 3.429718017578125
+Total local training loss is: 3.33734130859375
+attack:None
+defend:None
+{'accuracy': 0.733}
+t  70: train_loss = 3.412, norm = 7.598, test_acc = 0.733
+checkpoint ckpt_70.pt is saved...
+Round: 71/500
+Total local training loss is: 3.3347625732421875
+Total local training loss is: 3.2868194580078125
+attack:None
+defend:None
+{'accuracy': 0.7244}
+t  71: train_loss = 3.311, norm = 7.596, test_acc = 0.724
+checkpoint ckpt_71.pt is saved...
+Round: 72/500
+Total local training loss is: 3.3760528564453125
+Total local training loss is: 3.3281707763671875
+Total local training loss is: 3.2948455810546875
+attack:None
+defend:None
+{'accuracy': 0.725}
+t  72: train_loss = 3.333, norm = 7.597, test_acc = 0.725
+checkpoint ckpt_72.pt is saved...
+Round: 73/500
+Total local training loss is: 3.3566436767578125
+Total local training loss is: 3.335693359375
+Total local training loss is: 3.3383331298828125
+attack:None
+defend:None
+{'accuracy': 0.7333}
+t  73: train_loss = 3.344, norm = 7.598, test_acc = 0.733
+checkpoint ckpt_73.pt is saved...
+Round: 74/500
+Total local training loss is: 3.2591552734375
+Total local training loss is: 3.1809539794921875
+Total local training loss is: 3.291900634765625
+Total local training loss is: 3.251312255859375
+attack:None
+defend:None
+{'accuracy': 0.716}
+t  74: train_loss = 3.246, norm = 7.596, test_acc = 0.716
+checkpoint ckpt_74.pt is saved...
+Round: 75/500
+Total local training loss is: 3.301971435546875
+Total local training loss is: 3.3129119873046875
+attack:None
+defend:None
+{'accuracy': 0.7273}
+t  75: train_loss = 3.307, norm = 7.597, test_acc = 0.727
+checkpoint ckpt_75.pt is saved...
+Round: 76/500
+Total local training loss is: 3.2882080078125
+Total local training loss is: 3.293121337890625
+Total local training loss is: 3.3148345947265625
+Total local training loss is: 3.2459564208984375
+Total local training loss is: 3.3151702880859375
+attack:None
+defend:None
+{'accuracy': 0.7438}
+t  76: train_loss = 3.291, norm = 7.597, test_acc = 0.744
+checkpoint ckpt_76.pt is saved...
+Round: 77/500
+Total local training loss is: 3.3495635986328125
+Total local training loss is: 3.321258544921875
+Total local training loss is: 3.37896728515625
+Total local training loss is: 3.2218017578125
+Total local training loss is: 3.3722381591796875
+Total local training loss is: 3.294342041015625
+attack:None
+defend:None
+{'accuracy': 0.7459}
+t  77: train_loss = 3.323, norm = 7.597, test_acc = 0.746
+checkpoint ckpt_77.pt is saved...
+Round: 78/500
+Total local training loss is: 3.2537994384765625
+Total local training loss is: 3.2415771484375
+Total local training loss is: 3.339752197265625
+Total local training loss is: 3.31280517578125
+Total local training loss is: 3.2452850341796875
+attack:None
+defend:None
+{'accuracy': 0.7343}
+t  78: train_loss = 3.279, norm = 7.597, test_acc = 0.734
+checkpoint ckpt_78.pt is saved...
+Round: 79/500
+Total local training loss is: 3.3737640380859375
+Total local training loss is: 3.2445220947265625
+Total local training loss is: 3.1870269775390625
+Total local training loss is: 3.272125244140625
+attack:None
+defend:None
+{'accuracy': 0.7386}
+t  79: train_loss = 3.269, norm = 7.597, test_acc = 0.739
+checkpoint ckpt_79.pt is saved...
+Round: 80/500
+Total local training loss is: 3.267333984375
+Total local training loss is: 3.345001220703125
+Total local training loss is: 3.2330322265625
+Total local training loss is: 3.2230072021484375
+Total local training loss is: 3.207672119140625
+attack:None
+defend:None
+{'accuracy': 0.7545}
+t  80: train_loss = 3.255, norm = 7.597, test_acc = 0.754
+checkpoint ckpt_80.pt is saved...
+Round: 81/500
+Total local training loss is: 3.1764373779296875
+Total local training loss is: 3.2827606201171875
+attack:None
+defend:None
+{'accuracy': 0.7464}
+t  81: train_loss = 3.230, norm = 7.597, test_acc = 0.746
+checkpoint ckpt_81.pt is saved...
+Round: 82/500
+Total local training loss is: 3.321075439453125
+Total local training loss is: 3.2302398681640625
+Total local training loss is: 3.247344970703125
+Total local training loss is: 3.3846435546875
+Total local training loss is: 3.2335052490234375
+attack:None
+defend:None
+{'accuracy': 0.7588}
+t  82: train_loss = 3.283, norm = 7.597, test_acc = 0.759
+checkpoint ckpt_82.pt is saved...
+Round: 83/500
+Total local training loss is: 3.2037811279296875
+Total local training loss is: 3.3473052978515625
+Total local training loss is: 3.157379150390625
+attack:None
+defend:None
+{'accuracy': 0.7338}
+t  83: train_loss = 3.236, norm = 7.597, test_acc = 0.734
+checkpoint ckpt_83.pt is saved...
+Round: 84/500
+Total local training loss is: 3.2534027099609375
+Total local training loss is: 3.22833251953125
+Total local training loss is: 3.2444610595703125
+Total local training loss is: 3.2688751220703125
+Total local training loss is: 3.21234130859375
+Total local training loss is: 3.1410064697265625
+Total local training loss is: 3.1884307861328125
+attack:None
+defend:None
+{'accuracy': 0.7671}
+t  84: train_loss = 3.220, norm = 7.597, test_acc = 0.767
+checkpoint ckpt_84.pt is saved...
+Round: 85/500
+Total local training loss is: 3.1367034912109375
+Total local training loss is: 3.25823974609375
+Total local training loss is: 3.1483917236328125
+Total local training loss is: 3.182373046875
+Total local training loss is: 3.3055877685546875
+Total local training loss is: 3.221771240234375
+attack:None
+defend:None
+{'accuracy': 0.7365}
+t  85: train_loss = 3.209, norm = 7.597, test_acc = 0.737
+checkpoint ckpt_85.pt is saved...
+Round: 86/500
+Total local training loss is: 3.223419189453125
+Total local training loss is: 3.2635040283203125
+Total local training loss is: 3.269073486328125
+Total local training loss is: 3.24072265625
+Total local training loss is: 3.2631378173828125
+attack:None
+defend:None
+{'accuracy': 0.7641}
+t  86: train_loss = 3.252, norm = 7.597, test_acc = 0.764
+checkpoint ckpt_86.pt is saved...
+Round: 87/500
+Total local training loss is: 3.2165374755859375
+Total local training loss is: 3.2652435302734375
+Total local training loss is: 3.1897125244140625
+Total local training loss is: 3.187835693359375
+attack:None
+defend:None
+{'accuracy': 0.766}
+t  87: train_loss = 3.215, norm = 7.597, test_acc = 0.766
+checkpoint ckpt_87.pt is saved...
+Round: 88/500
+Total local training loss is: 3.190185546875
+Total local training loss is: 3.3201141357421875
+Total local training loss is: 3.2302398681640625
+Total local training loss is: 3.1490478515625
+attack:None
+defend:None
+{'accuracy': 0.7517}
+t  88: train_loss = 3.222, norm = 7.597, test_acc = 0.752
+checkpoint ckpt_88.pt is saved...
+Round: 89/500
+Total local training loss is: 3.2137603759765625
+Total local training loss is: 3.1977386474609375
+Total local training loss is: 3.1402740478515625
+Total local training loss is: 3.3758544921875
+Total local training loss is: 3.3456878662109375
+Total local training loss is: 3.1814422607421875
+Total local training loss is: 3.2309722900390625
+Total local training loss is: 3.144134521484375
+attack:None
+defend:None
+{'accuracy': 0.7802}
+t  89: train_loss = 3.229, norm = 7.598, test_acc = 0.780
+checkpoint ckpt_89.pt is saved...
+Round: 90/500
+Total local training loss is: 3.12359619140625
+Total local training loss is: 3.22930908203125
+attack:None
+defend:None
+{'accuracy': 0.7562}
+t  90: train_loss = 3.176, norm = 7.596, test_acc = 0.756
+checkpoint ckpt_90.pt is saved...
+Round: 91/500
+Total local training loss is: 3.2518463134765625
+Total local training loss is: 3.2396392822265625
+Total local training loss is: 3.221221923828125
+attack:None
+defend:None
+{'accuracy': 0.7698}
+t  91: train_loss = 3.238, norm = 7.598, test_acc = 0.770
+checkpoint ckpt_91.pt is saved...
+Round: 92/500
+Total local training loss is: 3.3283843994140625
+Total local training loss is: 3.107391357421875
+Total local training loss is: 3.138031005859375
+Total local training loss is: 3.1687774658203125
+attack:None
+defend:None
+{'accuracy': 0.7671}
+t  92: train_loss = 3.186, norm = 7.597, test_acc = 0.767
+checkpoint ckpt_92.pt is saved...
+Round: 93/500
+Total local training loss is: 3.233062744140625
+Total local training loss is: 3.0846710205078125
+Total local training loss is: 3.2547607421875
+attack:None
+defend:None
+{'accuracy': 0.7796}
+t  93: train_loss = 3.191, norm = 7.597, test_acc = 0.780
+checkpoint ckpt_93.pt is saved...
+Round: 94/500
+Total local training loss is: 3.147735595703125
+Total local training loss is: 3.1824493408203125
+Total local training loss is: 3.069854736328125
+Total local training loss is: 3.0889434814453125
+Total local training loss is: 3.218475341796875
+Total local training loss is: 3.1765289306640625
+attack:None
+defend:None
+{'accuracy': 0.7693}
+t  94: train_loss = 3.147, norm = 7.597, test_acc = 0.769
+checkpoint ckpt_94.pt is saved...
+Round: 95/500
+Total local training loss is: 3.1662445068359375
+Total local training loss is: 3.193115234375
+Total local training loss is: 3.2350616455078125
+Total local training loss is: 3.192596435546875
+Total local training loss is: 3.133087158203125
+Total local training loss is: 3.0677642822265625
+attack:None
+defend:None
+{'accuracy': 0.7776}
+t  95: train_loss = 3.165, norm = 7.597, test_acc = 0.778
+checkpoint ckpt_95.pt is saved...
+Round: 96/500
+Total local training loss is: 3.14093017578125
+Total local training loss is: 3.131866455078125
+Total local training loss is: 3.255340576171875
+Total local training loss is: 3.14422607421875
+Total local training loss is: 3.2147216796875
+Total local training loss is: 3.280517578125
+attack:None
+defend:None
+{'accuracy': 0.7576}
+t  96: train_loss = 3.195, norm = 7.598, test_acc = 0.758
+checkpoint ckpt_96.pt is saved...
+Round: 97/500
+Total local training loss is: 3.14404296875
+attack:None
+defend:None
+{'accuracy': 0.7784}
+t  97: train_loss = 3.144, norm = 7.597, test_acc = 0.778
+checkpoint ckpt_97.pt is saved...
+Round: 98/500
+Total local training loss is: 3.171783447265625
+Total local training loss is: 3.21319580078125
+Total local training loss is: 3.20111083984375
+Total local training loss is: 3.16290283203125
+Total local training loss is: 3.1162261962890625
+attack:None
+defend:None
+{'accuracy': 0.7768}
+t  98: train_loss = 3.173, norm = 7.598, test_acc = 0.777
+checkpoint ckpt_98.pt is saved...
+Round: 99/500
+Total local training loss is: 3.12738037109375
+Total local training loss is: 3.120269775390625
+Total local training loss is: 3.051788330078125
+attack:None
+defend:None
+{'accuracy': 0.7843}
+t  99: train_loss = 3.100, norm = 7.597, test_acc = 0.784
+checkpoint ckpt_99.pt is saved...
+Round: 100/500
+Total local training loss is: 3.1189422607421875
+Total local training loss is: 3.1437530517578125
+attack:None
+defend:None
+{'accuracy': 0.7787}
+t 100: train_loss = 3.131, norm = 7.597, test_acc = 0.779
+checkpoint ckpt_100.pt is saved...
+Round: 101/500
+Total local training loss is: 3.149566650390625
+Total local training loss is: 3.0472259521484375
+Total local training loss is: 3.1852569580078125
+attack:None
+defend:None
+{'accuracy': 0.7844}
+t 101: train_loss = 3.127, norm = 7.598, test_acc = 0.784
+checkpoint ckpt_101.pt is saved...
+Round: 102/500
+Total local training loss is: 3.1023712158203125
+Total local training loss is: 3.1566314697265625
+Total local training loss is: 3.179351806640625
+Total local training loss is: 3.1056671142578125
+Total local training loss is: 3.1619720458984375
+attack:None
+defend:None
+{'accuracy': 0.7844}
+t 102: train_loss = 3.141, norm = 7.597, test_acc = 0.784
+checkpoint ckpt_102.pt is saved...
+Round: 103/500
+Total local training loss is: 2.9935302734375
+Total local training loss is: 2.9654693603515625
+attack:None
+defend:None
+{'accuracy': 0.779}
+t 103: train_loss = 2.979, norm = 7.596, test_acc = 0.779
+checkpoint ckpt_103.pt is saved...
+Round: 104/500
+Total local training loss is: 3.1407012939453125
+Total local training loss is: 3.220855712890625
+Total local training loss is: 3.2628021240234375
+attack:None
+defend:None
+{'accuracy': 0.7851}
+t 104: train_loss = 3.208, norm = 7.598, test_acc = 0.785
+checkpoint ckpt_104.pt is saved...
+Round: 105/500
+Total local training loss is: 3.0930938720703125
+Total local training loss is: 3.2009429931640625
+Total local training loss is: 3.223236083984375
+Total local training loss is: 3.0946197509765625
+Total local training loss is: 3.1457366943359375
+attack:None
+defend:None
+{'accuracy': 0.7888}
+t 105: train_loss = 3.152, norm = 7.597, test_acc = 0.789
+checkpoint ckpt_105.pt is saved...
+Round: 106/500
+Total local training loss is: 3.1400146484375
+attack:None
+defend:None
+{'accuracy': 0.7712}
+t 106: train_loss = 3.140, norm = 7.598, test_acc = 0.771
+checkpoint ckpt_106.pt is saved...
+Round: 107/500
+Total local training loss is: 3.181884765625
+Total local training loss is: 3.1768035888671875
+Total local training loss is: 3.1866912841796875
+Total local training loss is: 3.247100830078125
+attack:None
+defend:None
+{'accuracy': 0.7826}
+t 107: train_loss = 3.198, norm = 7.598, test_acc = 0.783
+checkpoint ckpt_107.pt is saved...
+Round: 108/500
+Total local training loss is: 3.112762451171875
+Total local training loss is: 3.131805419921875
+Total local training loss is: 3.09295654296875
+Total local training loss is: 3.0291290283203125
+attack:None
+defend:None
+{'accuracy': 0.7928}
+t 108: train_loss = 3.092, norm = 7.597, test_acc = 0.793
+checkpoint ckpt_108.pt is saved...
+Round: 109/500
+Total local training loss is: 3.104766845703125
+Total local training loss is: 3.0815887451171875
+Total local training loss is: 3.1224365234375
+Total local training loss is: 3.11676025390625
+Total local training loss is: 3.0782318115234375
+attack:None
+defend:None
+{'accuracy': 0.7802}
+t 109: train_loss = 3.101, norm = 7.598, test_acc = 0.780
+checkpoint ckpt_109.pt is saved...
+Round: 110/500
+Total local training loss is: 3.1766510009765625
+Total local training loss is: 3.0938262939453125
+Total local training loss is: 3.1789093017578125
+Total local training loss is: 3.0705413818359375
+attack:None
+defend:None
+{'accuracy': 0.787}
+t 110: train_loss = 3.130, norm = 7.598, test_acc = 0.787
+checkpoint ckpt_110.pt is saved...
+Round: 111/500
+Total local training loss is: 3.1055145263671875
+Total local training loss is: 2.9975433349609375
+Total local training loss is: 3.080169677734375
+attack:None
+defend:None
+{'accuracy': 0.7883}
+t 111: train_loss = 3.061, norm = 7.597, test_acc = 0.788
+checkpoint ckpt_111.pt is saved...
+Round: 112/500
+Total local training loss is: 3.0203704833984375
+Total local training loss is: 3.145904541015625
+Total local training loss is: 3.09259033203125
+attack:None
+defend:None
+{'accuracy': 0.7777}
+t 112: train_loss = 3.086, norm = 7.598, test_acc = 0.778
+checkpoint ckpt_112.pt is saved...
+Round: 113/500
+Total local training loss is: 3.1104583740234375
+Total local training loss is: 2.949249267578125
+Total local training loss is: 3.177642822265625
+attack:None
+defend:None
+{'accuracy': 0.8068}
+t 113: train_loss = 3.079, norm = 7.598, test_acc = 0.807
+checkpoint ckpt_113.pt is saved...
+Round: 114/500
+Total local training loss is: 3.041046142578125
+attack:None
+defend:None
+{'accuracy': 0.7643}
+t 114: train_loss = 3.041, norm = 7.598, test_acc = 0.764
+checkpoint ckpt_114.pt is saved...
+Round: 115/500
+Total local training loss is: 3.1256256103515625
+Total local training loss is: 3.14007568359375
+Total local training loss is: 3.174041748046875
+attack:None
+defend:None
+{'accuracy': 0.7857}
+t 115: train_loss = 3.147, norm = 7.598, test_acc = 0.786
+checkpoint ckpt_115.pt is saved...
+Round: 116/500
+Total local training loss is: 3.1026611328125
+Total local training loss is: 3.1263885498046875
+Total local training loss is: 3.1082611083984375
+attack:None
+defend:None
+{'accuracy': 0.7807}
+t 116: train_loss = 3.112, norm = 7.598, test_acc = 0.781
+checkpoint ckpt_116.pt is saved...
+Round: 117/500
+Total local training loss is: 3.077728271484375
+Total local training loss is: 3.1024017333984375
+Total local training loss is: 3.040740966796875
+Total local training loss is: 3.1041107177734375
+Total local training loss is: 3.026031494140625
+attack:None
+defend:None
+{'accuracy': 0.7958}
+t 117: train_loss = 3.070, norm = 7.598, test_acc = 0.796
+checkpoint ckpt_117.pt is saved...
+Round: 118/500
+Total local training loss is: 3.1807708740234375
+Total local training loss is: 2.9845733642578125
+attack:None
+defend:None
+{'accuracy': 0.7832}
+t 118: train_loss = 3.083, norm = 7.598, test_acc = 0.783
+checkpoint ckpt_118.pt is saved...
+Round: 119/500
+Total local training loss is: 3.136260986328125
+Total local training loss is: 3.016021728515625
+Total local training loss is: 3.10980224609375
+Total local training loss is: 3.053619384765625
+attack:None
+defend:None
+{'accuracy': 0.806}
+t 119: train_loss = 3.079, norm = 7.598, test_acc = 0.806
+checkpoint ckpt_119.pt is saved...
+Round: 120/500
+Total local training loss is: 3.093719482421875
+Total local training loss is: 3.0861358642578125
+attack:None
+defend:None
+{'accuracy': 0.7902}
+t 120: train_loss = 3.090, norm = 7.598, test_acc = 0.790
+checkpoint ckpt_120.pt is saved...
+Round: 121/500
+Total local training loss is: 3.07635498046875
+Total local training loss is: 3.029449462890625
+Total local training loss is: 2.9991607666015625
+Total local training loss is: 3.1942138671875
+attack:None
+defend:None
+{'accuracy': 0.7966}
+t 121: train_loss = 3.075, norm = 7.598, test_acc = 0.797
+checkpoint ckpt_121.pt is saved...
+Round: 122/500
+Total local training loss is: 2.8577117919921875
+Total local training loss is: 3.0887908935546875
+attack:None
+defend:None
+{'accuracy': 0.7827}
+t 122: train_loss = 2.973, norm = 7.597, test_acc = 0.783
+checkpoint ckpt_122.pt is saved...
+Round: 123/500
+Total local training loss is: 3.0644378662109375
+Total local training loss is: 3.033843994140625
+Total local training loss is: 3.0425872802734375
+Total local training loss is: 2.97601318359375
+Total local training loss is: 3.105743408203125
+attack:None
+defend:None
+{'accuracy': 0.8045}
+t 123: train_loss = 3.045, norm = 7.598, test_acc = 0.804
+checkpoint ckpt_123.pt is saved...
+Round: 124/500
+Total local training loss is: 2.9081878662109375
+Total local training loss is: 3.1360626220703125
+Total local training loss is: 3.0268096923828125
+attack:None
+defend:None
+{'accuracy': 0.7851}
+t 124: train_loss = 3.024, norm = 7.598, test_acc = 0.785
+checkpoint ckpt_124.pt is saved...
+Round: 125/500
+Total local training loss is: 3.0481414794921875
+Total local training loss is: 3.003814697265625
+Total local training loss is: 2.9384765625
+attack:None
+defend:None
+{'accuracy': 0.8093}
+t 125: train_loss = 2.997, norm = 7.598, test_acc = 0.809
+checkpoint ckpt_125.pt is saved...
+Round: 126/500
+Total local training loss is: 3.01019287109375
+Total local training loss is: 3.0232391357421875
+Total local training loss is: 2.98687744140625
+Total local training loss is: 3.019500732421875
+attack:None
+defend:None
+{'accuracy': 0.7927}
+t 126: train_loss = 3.010, norm = 7.598, test_acc = 0.793
+checkpoint ckpt_126.pt is saved...
+Round: 127/500
+Total local training loss is: 3.0805206298828125
+Total local training loss is: 3.1030426025390625
+Total local training loss is: 3.0186614990234375
+Total local training loss is: 2.9641265869140625
+attack:None
+defend:None
+{'accuracy': 0.8152}
+t 127: train_loss = 3.042, norm = 7.598, test_acc = 0.815
+checkpoint ckpt_127.pt is saved...
+Round: 128/500
+Total local training loss is: 3.047576904296875
+Total local training loss is: 3.093231201171875
+attack:None
+defend:None
+{'accuracy': 0.7931}
+t 128: train_loss = 3.070, norm = 7.598, test_acc = 0.793
+checkpoint ckpt_128.pt is saved...
+Round: 129/500
+Total local training loss is: 3.164276123046875
+Total local training loss is: 3.010711669921875
+attack:None
+defend:None
+{'accuracy': 0.8031}
+t 129: train_loss = 3.087, norm = 7.598, test_acc = 0.803
+checkpoint ckpt_129.pt is saved...
+Round: 130/500
+Total local training loss is: 3.012664794921875
+Total local training loss is: 3.01861572265625
+attack:None
+defend:None
+{'accuracy': 0.7942}
+t 130: train_loss = 3.016, norm = 7.598, test_acc = 0.794
+checkpoint ckpt_130.pt is saved...
+Round: 131/500
+Total local training loss is: 3.0935211181640625
+Total local training loss is: 3.063873291015625
+Total local training loss is: 3.0080718994140625
+attack:None
+defend:None
+{'accuracy': 0.808}
+t 131: train_loss = 3.055, norm = 7.598, test_acc = 0.808
+checkpoint ckpt_131.pt is saved...
+Round: 132/500
+Total local training loss is: 3.1442718505859375
+Total local training loss is: 3.0278472900390625
+attack:None
+defend:None
+{'accuracy': 0.8001}
+t 132: train_loss = 3.086, norm = 7.598, test_acc = 0.800
+checkpoint ckpt_132.pt is saved...
+Round: 133/500
+Total local training loss is: 2.91033935546875
+Total local training loss is: 3.1523895263671875
+Total local training loss is: 3.019805908203125
+attack:None
+defend:None
+{'accuracy': 0.799}
+t 133: train_loss = 3.028, norm = 7.598, test_acc = 0.799
+checkpoint ckpt_133.pt is saved...
+Round: 134/500
+Total local training loss is: 3.0907745361328125
+Total local training loss is: 3.058807373046875
+Total local training loss is: 2.9880523681640625
+attack:None
+defend:None
+{'accuracy': 0.8212}
+t 134: train_loss = 3.046, norm = 7.599, test_acc = 0.821
+checkpoint ckpt_134.pt is saved...
+Round: 135/500
+Total local training loss is: 3.071807861328125
+Total local training loss is: 2.9813690185546875
+Total local training loss is: 2.980072021484375
+Total local training loss is: 2.8905029296875
+Total local training loss is: 2.9539337158203125
+Total local training loss is: 3.0069732666015625
+attack:None
+defend:None
+{'accuracy': 0.8205}
+t 135: train_loss = 2.981, norm = 7.598, test_acc = 0.821
+checkpoint ckpt_135.pt is saved...
+Round: 136/500
+Total local training loss is: 2.919921875
+Total local training loss is: 2.9893341064453125
+Total local training loss is: 2.901763916015625
+Total local training loss is: 2.8561553955078125
+attack:None
+defend:None
+{'accuracy': 0.8208}
+t 136: train_loss = 2.917, norm = 7.598, test_acc = 0.821
+checkpoint ckpt_136.pt is saved...
+Round: 137/500
+Total local training loss is: 2.9687652587890625
+Total local training loss is: 2.894989013671875
+Total local training loss is: 2.96124267578125
+attack:None
+defend:None
+{'accuracy': 0.8071}
+t 137: train_loss = 2.942, norm = 7.598, test_acc = 0.807
+checkpoint ckpt_137.pt is saved...
+Round: 138/500
+Total local training loss is: 2.94781494140625
+Total local training loss is: 2.960968017578125
+attack:None
+defend:None
+{'accuracy': 0.8095}
+t 138: train_loss = 2.954, norm = 7.598, test_acc = 0.809
+checkpoint ckpt_138.pt is saved...
+Round: 139/500
+Total local training loss is: 2.9685516357421875
+Total local training loss is: 2.9708480834960938
+attack:None
+defend:None
+{'accuracy': 0.8147}
+t 139: train_loss = 2.970, norm = 7.598, test_acc = 0.815
+checkpoint ckpt_139.pt is saved...
+Round: 140/500
+Total local training loss is: 2.9012374877929688
+Total local training loss is: 2.924102783203125
+Total local training loss is: 2.8946990966796875
+Total local training loss is: 2.981719970703125
+attack:None
+defend:None
+{'accuracy': 0.8023}
+t 140: train_loss = 2.925, norm = 7.598, test_acc = 0.802
+checkpoint ckpt_140.pt is saved...
+Round: 141/500
+Total local training loss is: 2.857269287109375
+Total local training loss is: 2.9624786376953125
+Total local training loss is: 2.8968048095703125
+Total local training loss is: 2.9989776611328125
+attack:None
+defend:None
+{'accuracy': 0.8226}
+t 141: train_loss = 2.929, norm = 7.598, test_acc = 0.823
+checkpoint ckpt_141.pt is saved...
+Round: 142/500
+Total local training loss is: 2.9377288818359375
+Total local training loss is: 2.9744720458984375
+Total local training loss is: 3.0875244140625
+Total local training loss is: 2.9496002197265625
+attack:None
+defend:None
+{'accuracy': 0.8141}
+t 142: train_loss = 2.987, norm = 7.598, test_acc = 0.814
+checkpoint ckpt_142.pt is saved...
+Round: 143/500
+Total local training loss is: 3.0088653564453125
+Total local training loss is: 2.9964599609375
+attack:None
+defend:None
+{'accuracy': 0.7974}
+t 143: train_loss = 3.003, norm = 7.598, test_acc = 0.797
+checkpoint ckpt_143.pt is saved...
+Round: 144/500
+Total local training loss is: 2.9738082885742188
+Total local training loss is: 3.0864715576171875
+attack:None
+defend:None
+{'accuracy': 0.8055}
+t 144: train_loss = 3.030, norm = 7.599, test_acc = 0.805
+checkpoint ckpt_144.pt is saved...
+Round: 145/500
+Total local training loss is: 2.9457855224609375
+Total local training loss is: 3.0315704345703125
+Total local training loss is: 3.1266937255859375
+Total local training loss is: 2.943206787109375
+attack:None
+defend:None
+{'accuracy': 0.8229}
+t 145: train_loss = 3.012, norm = 7.598, test_acc = 0.823
+checkpoint ckpt_145.pt is saved...
+Round: 146/500
+Total local training loss is: 2.9531707763671875
+Total local training loss is: 2.996490478515625
+Total local training loss is: 2.987274169921875
+Total local training loss is: 3.060699462890625
+attack:None
+defend:None
+{'accuracy': 0.8084}
+t 146: train_loss = 2.999, norm = 7.598, test_acc = 0.808
+checkpoint ckpt_146.pt is saved...
+Round: 147/500
+Total local training loss is: 3.0257720947265625
+Total local training loss is: 3.0362701416015625
+Total local training loss is: 2.98309326171875
+attack:None
+defend:None
+{'accuracy': 0.8227}
+t 147: train_loss = 3.015, norm = 7.598, test_acc = 0.823
+checkpoint ckpt_147.pt is saved...
+Round: 148/500
+Total local training loss is: 2.9708404541015625
+attack:None
+defend:None
+{'accuracy': 0.7903}
+t 148: train_loss = 2.971, norm = 7.598, test_acc = 0.790
+checkpoint ckpt_148.pt is saved...
+Round: 149/500
+Total local training loss is: 3.090087890625
+Total local training loss is: 3.110443115234375
+attack:None
+defend:None
+{'accuracy': 0.8085}
+t 149: train_loss = 3.100, norm = 7.599, test_acc = 0.808
+checkpoint ckpt_149.pt is saved...
+Round: 150/500
+Total local training loss is: 3.01934814453125
+Total local training loss is: 3.0244140625
+Total local training loss is: 3.0916900634765625
+Total local training loss is: 2.986907958984375
+Total local training loss is: 2.9759674072265625
+attack:None
+defend:None
+{'accuracy': 0.8178}
+t 150: train_loss = 3.020, norm = 7.599, test_acc = 0.818
+checkpoint ckpt_150.pt is saved...
+Round: 151/500
+Total local training loss is: 2.999359130859375
+Total local training loss is: 2.98681640625
+Total local training loss is: 2.8735504150390625
+attack:None
+defend:None
+{'accuracy': 0.8033}
+t 151: train_loss = 2.953, norm = 7.598, test_acc = 0.803
+checkpoint ckpt_151.pt is saved...
+Round: 152/500
+Total local training loss is: 2.9134979248046875
+Total local training loss is: 2.9120941162109375
+Total local training loss is: 3.0336151123046875
+attack:None
+defend:None
+{'accuracy': 0.8035}
+t 152: train_loss = 2.953, norm = 7.598, test_acc = 0.803
+checkpoint ckpt_152.pt is saved...
+Round: 153/500
+Total local training loss is: 3.15411376953125
+Total local training loss is: 2.9827117919921875
+Total local training loss is: 2.9892730712890625
+Total local training loss is: 3.011260986328125
+attack:None
+defend:None
+{'accuracy': 0.8275}
+t 153: train_loss = 3.034, norm = 7.599, test_acc = 0.828
+checkpoint ckpt_153.pt is saved...
+Round: 154/500
+Total local training loss is: 2.984283447265625
+Total local training loss is: 2.9007110595703125
+Total local training loss is: 2.8908233642578125
+attack:None
+defend:None
+{'accuracy': 0.8169}
+t 154: train_loss = 2.925, norm = 7.598, test_acc = 0.817
+checkpoint ckpt_154.pt is saved...
+Round: 155/500
+Total local training loss is: 3.12762451171875
+Total local training loss is: 2.9517059326171875
+Total local training loss is: 2.9608612060546875
+attack:None
+defend:None
+{'accuracy': 0.8182}
+t 155: train_loss = 3.013, norm = 7.599, test_acc = 0.818
+checkpoint ckpt_155.pt is saved...
+Round: 156/500
+Total local training loss is: 2.913787841796875
+attack:None
+defend:None
+{'accuracy': 0.7959}
+t 156: train_loss = 2.914, norm = 7.598, test_acc = 0.796
+checkpoint ckpt_156.pt is saved...
+Round: 157/500
+Total local training loss is: 2.9886932373046875
+Total local training loss is: 2.9396209716796875
+Total local training loss is: 2.9871368408203125
+Total local training loss is: 3.040863037109375
+attack:None
+defend:None
+{'accuracy': 0.8099}
+t 157: train_loss = 2.989, norm = 7.599, test_acc = 0.810
+checkpoint ckpt_157.pt is saved...
+Round: 158/500
+Total local training loss is: 2.95452880859375
+Total local training loss is: 3.0173797607421875
+attack:None
+defend:None
+{'accuracy': 0.8179}
+t 158: train_loss = 2.986, norm = 7.598, test_acc = 0.818
+checkpoint ckpt_158.pt is saved...
+Round: 159/500
+Total local training loss is: 2.9753265380859375
+Total local training loss is: 2.888824462890625
+Total local training loss is: 3.0189208984375
+Total local training loss is: 2.9266815185546875
+attack:None
+defend:None
+{'accuracy': 0.8203}
+t 159: train_loss = 2.952, norm = 7.598, test_acc = 0.820
+checkpoint ckpt_159.pt is saved...
+Round: 160/500
+Total local training loss is: 2.997283935546875
+Total local training loss is: 2.953857421875
+attack:None
+defend:None
+{'accuracy': 0.8157}
+t 160: train_loss = 2.976, norm = 7.598, test_acc = 0.816
+checkpoint ckpt_160.pt is saved...
+Round: 161/500
+Total local training loss is: 3.067596435546875
+Total local training loss is: 3.07708740234375
+Total local training loss is: 2.826751708984375
+Total local training loss is: 3.117095947265625
+attack:None
+defend:None
+{'accuracy': 0.8056}
+t 161: train_loss = 3.022, norm = 7.599, test_acc = 0.806
+checkpoint ckpt_161.pt is saved...
+Round: 162/500
+Total local training loss is: 2.9280548095703125
+Total local training loss is: 2.9442596435546875
+Total local training loss is: 2.9356842041015625
+Total local training loss is: 3.002197265625
+Total local training loss is: 2.9415664672851562
+attack:None
+defend:None
+{'accuracy': 0.8326}
+t 162: train_loss = 2.950, norm = 7.598, test_acc = 0.833
+checkpoint ckpt_162.pt is saved...
+Round: 163/500
+Total local training loss is: 3.013885498046875
+Total local training loss is: 2.9329681396484375
+Total local training loss is: 3.050811767578125
+Total local training loss is: 2.910003662109375
+attack:None
+defend:None
+{'accuracy': 0.8101}
+t 163: train_loss = 2.977, norm = 7.598, test_acc = 0.810
+checkpoint ckpt_163.pt is saved...
+Round: 164/500
+Total local training loss is: 2.9686965942382812
+Total local training loss is: 2.879730224609375
+attack:None
+defend:None
+{'accuracy': 0.8157}
+t 164: train_loss = 2.924, norm = 7.598, test_acc = 0.816
+checkpoint ckpt_164.pt is saved...
+Round: 165/500
+Total local training loss is: 3.033721923828125
+Total local training loss is: 2.8558349609375
+Total local training loss is: 2.9084625244140625
+Total local training loss is: 2.935028076171875
+attack:None
+defend:None
+{'accuracy': 0.8167}
+t 165: train_loss = 2.933, norm = 7.599, test_acc = 0.817
+checkpoint ckpt_165.pt is saved...
+Round: 166/500
+Total local training loss is: 2.94451904296875
+Total local training loss is: 2.996124267578125
+Total local training loss is: 2.8659286499023438
+Total local training loss is: 2.8881378173828125
+Total local training loss is: 2.9388580322265625
+attack:None
+defend:None
+{'accuracy': 0.8202}
+t 166: train_loss = 2.927, norm = 7.599, test_acc = 0.820
+checkpoint ckpt_166.pt is saved...
+Round: 167/500
+Total local training loss is: 2.9962615966796875
+Total local training loss is: 2.9669952392578125
+Total local training loss is: 2.8646240234375
+attack:None
+defend:None
+{'accuracy': 0.8158}
+t 167: train_loss = 2.943, norm = 7.599, test_acc = 0.816
+checkpoint ckpt_167.pt is saved...
+Round: 168/500
+Total local training loss is: 2.8370285034179688
+Total local training loss is: 2.922454833984375
+attack:None
+defend:None
+{'accuracy': 0.8211}
+t 168: train_loss = 2.880, norm = 7.598, test_acc = 0.821
+checkpoint ckpt_168.pt is saved...
+Round: 169/500
+Total local training loss is: 2.9365081787109375
+Total local training loss is: 2.9167327880859375
+Total local training loss is: 2.8141632080078125
+attack:None
+defend:None
+{'accuracy': 0.8187}
+t 169: train_loss = 2.889, norm = 7.599, test_acc = 0.819
+checkpoint ckpt_169.pt is saved...
+Round: 170/500
+Total local training loss is: 2.8770523071289062
+Total local training loss is: 3.007720947265625
+Total local training loss is: 3.0092926025390625
+Total local training loss is: 2.8841705322265625
+attack:None
+defend:None
+{'accuracy': 0.8216}
+t 170: train_loss = 2.945, norm = 7.598, test_acc = 0.822
+checkpoint ckpt_170.pt is saved...
+Round: 171/500
+Total local training loss is: 2.9447784423828125
+Total local training loss is: 2.928466796875
+attack:None
+defend:None
+{'accuracy': 0.8151}
+t 171: train_loss = 2.937, norm = 7.598, test_acc = 0.815
+checkpoint ckpt_171.pt is saved...
+Round: 172/500
+Total local training loss is: 2.93963623046875
+Total local training loss is: 2.8383941650390625
+Total local training loss is: 2.95416259765625
+attack:None
+defend:None
+{'accuracy': 0.8223}
+t 172: train_loss = 2.911, norm = 7.599, test_acc = 0.822
+checkpoint ckpt_172.pt is saved...
+Round: 173/500
+Total local training loss is: 2.9642105102539062
+Total local training loss is: 3.00665283203125
+attack:None
+defend:None
+{'accuracy': 0.8074}
+t 173: train_loss = 2.985, norm = 7.598, test_acc = 0.807
+checkpoint ckpt_173.pt is saved...
+Round: 174/500
+Total local training loss is: 3.043670654296875
+Total local training loss is: 2.903045654296875
+attack:None
+defend:None
+{'accuracy': 0.8141}
+t 174: train_loss = 2.973, norm = 7.599, test_acc = 0.814
+checkpoint ckpt_174.pt is saved...
+Round: 175/500
+Total local training loss is: 2.872650146484375
+Total local training loss is: 2.8923492431640625
+attack:None
+defend:None
+{'accuracy': 0.826}
+t 175: train_loss = 2.882, norm = 7.598, test_acc = 0.826
+checkpoint ckpt_175.pt is saved...
+Round: 176/500
+Total local training loss is: 3.041412353515625
+attack:None
+defend:None
+{'accuracy': 0.7927}
+t 176: train_loss = 3.041, norm = 7.599, test_acc = 0.793
+checkpoint ckpt_176.pt is saved...
+Round: 177/500
+Total local training loss is: 2.9485015869140625
+Total local training loss is: 3.0036392211914062
+Total local training loss is: 2.931732177734375
+Total local training loss is: 3.0410919189453125
+Total local training loss is: 3.0378799438476562
+Total local training loss is: 3.0363540649414062
+attack:None
+defend:None
+{'accuracy': 0.8173}
+t 177: train_loss = 3.000, norm = 7.599, test_acc = 0.817
+checkpoint ckpt_177.pt is saved...
+Round: 178/500
+Total local training loss is: 2.91357421875
+Total local training loss is: 2.87335205078125
+Total local training loss is: 3.0084991455078125
+Total local training loss is: 3.0088653564453125
+attack:None
+defend:None
+{'accuracy': 0.8203}
+t 178: train_loss = 2.951, norm = 7.599, test_acc = 0.820
+checkpoint ckpt_178.pt is saved...
+Round: 179/500
+Total local training loss is: 2.88360595703125
+Total local training loss is: 2.8592681884765625
+Total local training loss is: 2.8112030029296875
+Total local training loss is: 3.0419158935546875
+attack:None
+defend:None
+{'accuracy': 0.8212}
+t 179: train_loss = 2.899, norm = 7.599, test_acc = 0.821
+checkpoint ckpt_179.pt is saved...
+Round: 180/500
+Total local training loss is: 2.9379730224609375
+Total local training loss is: 2.8823394775390625
+Total local training loss is: 2.98468017578125
+Total local training loss is: 3.0114364624023438
+attack:None
+defend:None
+{'accuracy': 0.8061}
+t 180: train_loss = 2.954, norm = 7.599, test_acc = 0.806
+checkpoint ckpt_180.pt is saved...
+Round: 181/500
+Total local training loss is: 2.9430999755859375
+Total local training loss is: 2.8583526611328125
+Total local training loss is: 2.8719100952148438
+attack:None
+defend:None
+{'accuracy': 0.8239}
+t 181: train_loss = 2.891, norm = 7.599, test_acc = 0.824
+checkpoint ckpt_181.pt is saved...
+Round: 182/500
+Total local training loss is: 2.8471832275390625
+Total local training loss is: 2.9423446655273438
+attack:None
+defend:None
+{'accuracy': 0.8073}
+t 182: train_loss = 2.895, norm = 7.599, test_acc = 0.807
+checkpoint ckpt_182.pt is saved...
+Round: 183/500
+Total local training loss is: 2.9571380615234375
+Total local training loss is: 2.9025421142578125
+Total local training loss is: 2.901519775390625
+attack:None
+defend:None
+{'accuracy': 0.8206}
+t 183: train_loss = 2.920, norm = 7.599, test_acc = 0.821
+checkpoint ckpt_183.pt is saved...
+Round: 184/500
+Total local training loss is: 2.93402099609375
+Total local training loss is: 2.8855438232421875
+Total local training loss is: 3.078582763671875
+attack:None
+defend:None
+{'accuracy': 0.8135}
+t 184: train_loss = 2.966, norm = 7.599, test_acc = 0.814
+checkpoint ckpt_184.pt is saved...
+Round: 185/500
+Total local training loss is: 2.8442916870117188
+Total local training loss is: 2.86004638671875
+Total local training loss is: 2.8662567138671875
+attack:None
+defend:None
+{'accuracy': 0.8241}
+t 185: train_loss = 2.857, norm = 7.599, test_acc = 0.824
+checkpoint ckpt_185.pt is saved...
+Round: 186/500
+Total local training loss is: 2.8837738037109375
+Total local training loss is: 2.8486099243164062
+Total local training loss is: 2.934661865234375
+attack:None
+defend:None
+{'accuracy': 0.8146}
+t 186: train_loss = 2.889, norm = 7.599, test_acc = 0.815
+checkpoint ckpt_186.pt is saved...
+Round: 187/500
+Total local training loss is: 3.0733184814453125
+Total local training loss is: 2.9024581909179688
+Total local training loss is: 2.9499969482421875
+attack:None
+defend:None
+{'accuracy': 0.8183}
+t 187: train_loss = 2.975, norm = 7.599, test_acc = 0.818
+checkpoint ckpt_187.pt is saved...
+Round: 188/500
+Total local training loss is: 2.875640869140625
+Total local training loss is: 2.9854583740234375
+Total local training loss is: 2.8572998046875
+attack:None
+defend:None
+{'accuracy': 0.8283}
+t 188: train_loss = 2.906, norm = 7.599, test_acc = 0.828
+checkpoint ckpt_188.pt is saved...
+Round: 189/500
+Total local training loss is: 3.0178375244140625
+Total local training loss is: 2.8791656494140625
+Total local training loss is: 2.8821792602539062
+Total local training loss is: 2.8564529418945312
+Total local training loss is: 2.8203582763671875
+attack:None
+defend:None
+{'accuracy': 0.8261}
+t 189: train_loss = 2.891, norm = 7.599, test_acc = 0.826
+checkpoint ckpt_189.pt is saved...
+Round: 190/500
+Total local training loss is: 2.8888092041015625
+Total local training loss is: 2.7890167236328125
+attack:None
+defend:None
+{'accuracy': 0.8228}
+t 190: train_loss = 2.839, norm = 7.599, test_acc = 0.823
+checkpoint ckpt_190.pt is saved...
+Round: 191/500
+Total local training loss is: 2.89697265625
+Total local training loss is: 2.9286346435546875
+Total local training loss is: 2.98052978515625
+Total local training loss is: 2.7843017578125
+attack:None
+defend:None
+{'accuracy': 0.8259}
+t 191: train_loss = 2.898, norm = 7.598, test_acc = 0.826
+checkpoint ckpt_191.pt is saved...
+Round: 192/500
+Total local training loss is: 2.9453277587890625
+Total local training loss is: 2.8144302368164062
+Total local training loss is: 2.9234771728515625
+Total local training loss is: 2.8529510498046875
+Total local training loss is: 2.9225234985351562
+attack:None
+defend:None
+{'accuracy': 0.8325}
+t 192: train_loss = 2.892, norm = 7.598, test_acc = 0.833
+checkpoint ckpt_192.pt is saved...
+Round: 193/500
+Total local training loss is: 2.807952880859375
+Total local training loss is: 2.8829269409179688
+Total local training loss is: 2.82080078125
+attack:None
+defend:None
+{'accuracy': 0.8194}
+t 193: train_loss = 2.837, norm = 7.598, test_acc = 0.819
+checkpoint ckpt_193.pt is saved...
+Round: 194/500
+Total local training loss is: 2.9358444213867188
+Total local training loss is: 2.8343658447265625
+Total local training loss is: 2.9127120971679688
+Total local training loss is: 2.8889694213867188
+attack:None
+defend:None
+{'accuracy': 0.8341}
+t 194: train_loss = 2.893, norm = 7.599, test_acc = 0.834
+checkpoint ckpt_194.pt is saved...
+Round: 195/500
+Total local training loss is: 2.8449172973632812
+attack:None
+defend:None
+{'accuracy': 0.7981}
+t 195: train_loss = 2.845, norm = 7.599, test_acc = 0.798
+checkpoint ckpt_195.pt is saved...
+Round: 196/500
+Total local training loss is: 2.9809417724609375
+Total local training loss is: 2.9788055419921875
+Total local training loss is: 2.776153564453125
+Total local training loss is: 2.8172760009765625
+Total local training loss is: 2.9644317626953125
+attack:None
+defend:None
+{'accuracy': 0.8223}
+t 196: train_loss = 2.904, norm = 7.599, test_acc = 0.822
+checkpoint ckpt_196.pt is saved...
+Round: 197/500
+Total local training loss is: 2.833648681640625
+Total local training loss is: 2.8174285888671875
+Total local training loss is: 2.7875518798828125
+attack:None
+defend:None
+{'accuracy': 0.8291}
+t 197: train_loss = 2.813, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_197.pt is saved...
+Round: 198/500
+Total local training loss is: 2.9311599731445312
+Total local training loss is: 2.8221588134765625
+Total local training loss is: 2.834869384765625
+attack:None
+defend:None
+{'accuracy': 0.8164}
+t 198: train_loss = 2.863, norm = 7.599, test_acc = 0.816
+checkpoint ckpt_198.pt is saved...
+Round: 199/500
+attack:None
+defend:None
+{'accuracy': 0.8164}
+t 199: train_loss = 100.000, norm = 100.000, test_acc = 0.816
+checkpoint ckpt_199.pt is saved...
+Round: 200/500
+Total local training loss is: 2.9251022338867188
+Total local training loss is: 3.0210418701171875
+Total local training loss is: 2.8762588500976562
+Total local training loss is: 2.8349151611328125
+Total local training loss is: 2.9237823486328125
+attack:None
+defend:None
+{'accuracy': 0.8289}
+t 200: train_loss = 2.916, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_200.pt is saved...
+Round: 201/500
+Total local training loss is: 2.8243331909179688
+Total local training loss is: 2.895965576171875
+Total local training loss is: 2.8095245361328125
+Total local training loss is: 2.93731689453125
+attack:None
+defend:None
+{'accuracy': 0.8174}
+t 201: train_loss = 2.867, norm = 7.599, test_acc = 0.817
+checkpoint ckpt_201.pt is saved...
+Round: 202/500
+Total local training loss is: 2.9524993896484375
+Total local training loss is: 2.9191741943359375
+Total local training loss is: 2.8797225952148438
+Total local training loss is: 2.9173431396484375
+Total local training loss is: 2.7771072387695312
+attack:None
+defend:None
+{'accuracy': 0.8369}
+t 202: train_loss = 2.889, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_202.pt is saved...
+Round: 203/500
+Total local training loss is: 2.88909912109375
+Total local training loss is: 2.9272613525390625
+Total local training loss is: 2.78790283203125
+attack:None
+defend:None
+{'accuracy': 0.8195}
+t 203: train_loss = 2.868, norm = 7.599, test_acc = 0.820
+checkpoint ckpt_203.pt is saved...
+Round: 204/500
+Total local training loss is: 2.913665771484375
+Total local training loss is: 2.80926513671875
+Total local training loss is: 2.8643951416015625
+Total local training loss is: 2.781341552734375
+Total local training loss is: 2.8649139404296875
+attack:None
+defend:None
+{'accuracy': 0.8362}
+t 204: train_loss = 2.847, norm = 7.599, test_acc = 0.836
+checkpoint ckpt_204.pt is saved...
+Round: 205/500
+Total local training loss is: 2.822998046875
+Total local training loss is: 2.9876785278320312
+Total local training loss is: 2.8855514526367188
+attack:None
+defend:None
+{'accuracy': 0.8185}
+t 205: train_loss = 2.899, norm = 7.599, test_acc = 0.819
+checkpoint ckpt_205.pt is saved...
+Round: 206/500
+Total local training loss is: 2.878570556640625
+Total local training loss is: 2.8964309692382812
+attack:None
+defend:None
+{'accuracy': 0.8208}
+t 206: train_loss = 2.888, norm = 7.599, test_acc = 0.821
+checkpoint ckpt_206.pt is saved...
+Round: 207/500
+Total local training loss is: 2.883087158203125
+Total local training loss is: 2.808502197265625
+Total local training loss is: 2.9327545166015625
+Total local training loss is: 2.9708404541015625
+Total local training loss is: 2.8429107666015625
+attack:None
+defend:None
+{'accuracy': 0.8366}
+t 207: train_loss = 2.888, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_207.pt is saved...
+Round: 208/500
+Total local training loss is: 2.9456329345703125
+Total local training loss is: 2.9454803466796875
+Total local training loss is: 2.7456283569335938
+attack:None
+defend:None
+{'accuracy': 0.8297}
+t 208: train_loss = 2.879, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_208.pt is saved...
+Round: 209/500
+Total local training loss is: 2.8100357055664062
+Total local training loss is: 2.823974609375
+Total local training loss is: 2.963775634765625
+Total local training loss is: 3.053436279296875
+attack:None
+defend:None
+{'accuracy': 0.8293}
+t 209: train_loss = 2.913, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_209.pt is saved...
+Round: 210/500
+Total local training loss is: 2.9064102172851562
+Total local training loss is: 2.757781982421875
+attack:None
+defend:None
+{'accuracy': 0.8215}
+t 210: train_loss = 2.832, norm = 7.599, test_acc = 0.822
+checkpoint ckpt_210.pt is saved...
+Round: 211/500
+Total local training loss is: 2.86279296875
+Total local training loss is: 2.923553466796875
+Total local training loss is: 2.7845382690429688
+Total local training loss is: 2.7803421020507812
+Total local training loss is: 2.9258956909179688
+attack:None
+defend:None
+{'accuracy': 0.8291}
+t 211: train_loss = 2.855, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_211.pt is saved...
+Round: 212/500
+Total local training loss is: 2.8086624145507812
+Total local training loss is: 2.8215179443359375
+Total local training loss is: 2.691925048828125
+attack:None
+defend:None
+{'accuracy': 0.8317}
+t 212: train_loss = 2.774, norm = 7.599, test_acc = 0.832
+checkpoint ckpt_212.pt is saved...
+Round: 213/500
+Total local training loss is: 2.8272247314453125
+Total local training loss is: 2.9622726440429688
+attack:None
+defend:None
+{'accuracy': 0.8206}
+t 213: train_loss = 2.895, norm = 7.599, test_acc = 0.821
+checkpoint ckpt_213.pt is saved...
+Round: 214/500
+Total local training loss is: 2.7909088134765625
+Total local training loss is: 2.96295166015625
+Total local training loss is: 2.8070144653320312
+Total local training loss is: 2.821380615234375
+attack:None
+defend:None
+{'accuracy': 0.8358}
+t 214: train_loss = 2.846, norm = 7.599, test_acc = 0.836
+checkpoint ckpt_214.pt is saved...
+Round: 215/500
+Total local training loss is: 2.7733840942382812
+Total local training loss is: 2.7457046508789062
+Total local training loss is: 2.7759552001953125
+Total local training loss is: 2.8198623657226562
+Total local training loss is: 2.7780380249023438
+attack:None
+defend:None
+{'accuracy': 0.825}
+t 215: train_loss = 2.779, norm = 7.598, test_acc = 0.825
+checkpoint ckpt_215.pt is saved...
+Round: 216/500
+Total local training loss is: 2.7483062744140625
+Total local training loss is: 2.8847198486328125
+Total local training loss is: 2.8712310791015625
+Total local training loss is: 2.8456268310546875
+attack:None
+defend:None
+{'accuracy': 0.8333}
+t 216: train_loss = 2.837, norm = 7.599, test_acc = 0.833
+checkpoint ckpt_216.pt is saved...
+Round: 217/500
+Total local training loss is: 2.8124237060546875
+Total local training loss is: 2.7502365112304688
+Total local training loss is: 2.760162353515625
+attack:None
+defend:None
+{'accuracy': 0.8294}
+t 217: train_loss = 2.774, norm = 7.598, test_acc = 0.829
+checkpoint ckpt_217.pt is saved...
+Round: 218/500
+Total local training loss is: 2.8959121704101562
+Total local training loss is: 2.7755584716796875
+Total local training loss is: 2.7915878295898438
+attack:None
+defend:None
+{'accuracy': 0.8285}
+t 218: train_loss = 2.821, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_218.pt is saved...
+Round: 219/500
+Total local training loss is: 2.784149169921875
+Total local training loss is: 2.84759521484375
+attack:None
+defend:None
+{'accuracy': 0.8337}
+t 219: train_loss = 2.816, norm = 7.598, test_acc = 0.834
+checkpoint ckpt_219.pt is saved...
+Round: 220/500
+Total local training loss is: 2.8459625244140625
+Total local training loss is: 2.878692626953125
+Total local training loss is: 2.8572463989257812
+Total local training loss is: 2.8648223876953125
+attack:None
+defend:None
+{'accuracy': 0.8306}
+t 220: train_loss = 2.862, norm = 7.599, test_acc = 0.831
+checkpoint ckpt_220.pt is saved...
+Round: 221/500
+Total local training loss is: 2.7487716674804688
+Total local training loss is: 2.786529541015625
+Total local training loss is: 2.8093414306640625
+Total local training loss is: 2.962860107421875
+attack:None
+defend:None
+{'accuracy': 0.83}
+t 221: train_loss = 2.827, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_221.pt is saved...
+Round: 222/500
+Total local training loss is: 2.745391845703125
+Total local training loss is: 2.8145751953125
+attack:None
+defend:None
+{'accuracy': 0.8223}
+t 222: train_loss = 2.780, norm = 7.598, test_acc = 0.822
+checkpoint ckpt_222.pt is saved...
+Round: 223/500
+Total local training loss is: 2.9215087890625
+Total local training loss is: 2.9264678955078125
+Total local training loss is: 2.9333953857421875
+attack:None
+defend:None
+{'accuracy': 0.8262}
+t 223: train_loss = 2.927, norm = 7.599, test_acc = 0.826
+checkpoint ckpt_223.pt is saved...
+Round: 224/500
+Total local training loss is: 2.8959808349609375
+Total local training loss is: 2.8581161499023438
+Total local training loss is: 2.8514633178710938
+attack:None
+defend:None
+{'accuracy': 0.8242}
+t 224: train_loss = 2.869, norm = 7.599, test_acc = 0.824
+checkpoint ckpt_224.pt is saved...
+Round: 225/500
+Total local training loss is: 2.7646636962890625
+Total local training loss is: 2.8022537231445312
+Total local training loss is: 2.8938446044921875
+Total local training loss is: 2.801605224609375
+Total local training loss is: 2.7705230712890625
+attack:None
+defend:None
+{'accuracy': 0.8286}
+t 225: train_loss = 2.807, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_225.pt is saved...
+Round: 226/500
+Total local training loss is: 2.769775390625
+Total local training loss is: 2.7725067138671875
+attack:None
+defend:None
+{'accuracy': 0.8148}
+t 226: train_loss = 2.771, norm = 7.599, test_acc = 0.815
+checkpoint ckpt_226.pt is saved...
+Round: 227/500
+Total local training loss is: 2.77276611328125
+Total local training loss is: 2.9049530029296875
+attack:None
+defend:None
+{'accuracy': 0.8225}
+t 227: train_loss = 2.839, norm = 7.599, test_acc = 0.823
+checkpoint ckpt_227.pt is saved...
+Round: 228/500
+Total local training loss is: 2.8740234375
+Total local training loss is: 2.87615966796875
+Total local training loss is: 2.6634597778320312
+attack:None
+defend:None
+{'accuracy': 0.8186}
+t 228: train_loss = 2.805, norm = 7.599, test_acc = 0.819
+checkpoint ckpt_228.pt is saved...
+Round: 229/500
+Total local training loss is: 2.882171630859375
+Total local training loss is: 2.75543212890625
+Total local training loss is: 2.7530593872070312
+attack:None
+defend:None
+{'accuracy': 0.8263}
+t 229: train_loss = 2.797, norm = 7.599, test_acc = 0.826
+checkpoint ckpt_229.pt is saved...
+Round: 230/500
+Total local training loss is: 2.804931640625
+Total local training loss is: 2.6941986083984375
+Total local training loss is: 2.7407684326171875
+Total local training loss is: 2.8171539306640625
+attack:None
+defend:None
+{'accuracy': 0.8208}
+t 230: train_loss = 2.764, norm = 7.599, test_acc = 0.821
+checkpoint ckpt_230.pt is saved...
+Round: 231/500
+Total local training loss is: 2.9079208374023438
+Total local training loss is: 2.8150634765625
+attack:None
+defend:None
+{'accuracy': 0.8202}
+t 231: train_loss = 2.861, norm = 7.599, test_acc = 0.820
+checkpoint ckpt_231.pt is saved...
+Round: 232/500
+Total local training loss is: 2.8086166381835938
+Total local training loss is: 2.7433929443359375
+Total local training loss is: 2.8150253295898438
+attack:None
+defend:None
+{'accuracy': 0.8103}
+t 232: train_loss = 2.789, norm = 7.599, test_acc = 0.810
+checkpoint ckpt_232.pt is saved...
+Round: 233/500
+Total local training loss is: 2.9479827880859375
+Total local training loss is: 2.944091796875
+Total local training loss is: 2.7685317993164062
+Total local training loss is: 2.7940826416015625
+attack:None
+defend:None
+{'accuracy': 0.8293}
+t 233: train_loss = 2.864, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_233.pt is saved...
+Round: 234/500
+Total local training loss is: 2.8039169311523438
+Total local training loss is: 2.6823501586914062
+Total local training loss is: 2.7734832763671875
+attack:None
+defend:None
+{'accuracy': 0.818}
+t 234: train_loss = 2.753, norm = 7.599, test_acc = 0.818
+checkpoint ckpt_234.pt is saved...
+Round: 235/500
+Total local training loss is: 2.704071044921875
+Total local training loss is: 2.8360214233398438
+Total local training loss is: 2.8785400390625
+Total local training loss is: 2.8124618530273438
+Total local training loss is: 2.7983169555664062
+attack:None
+defend:None
+{'accuracy': 0.8271}
+t 235: train_loss = 2.806, norm = 7.599, test_acc = 0.827
+checkpoint ckpt_235.pt is saved...
+Round: 236/500
+Total local training loss is: 2.744873046875
+Total local training loss is: 2.9366836547851562
+Total local training loss is: 2.8048019409179688
+Total local training loss is: 2.78997802734375
+Total local training loss is: 2.884429931640625
+attack:None
+defend:None
+{'accuracy': 0.8313}
+t 236: train_loss = 2.832, norm = 7.599, test_acc = 0.831
+checkpoint ckpt_236.pt is saved...
+Round: 237/500
+Total local training loss is: 2.803985595703125
+Total local training loss is: 2.9057769775390625
+attack:None
+defend:None
+{'accuracy': 0.8228}
+t 237: train_loss = 2.855, norm = 7.599, test_acc = 0.823
+checkpoint ckpt_237.pt is saved...
+Round: 238/500
+Total local training loss is: 2.7639617919921875
+Total local training loss is: 2.7642364501953125
+Total local training loss is: 2.8135528564453125
+Total local training loss is: 2.80145263671875
+Total local training loss is: 2.923187255859375
+attack:None
+defend:None
+{'accuracy': 0.8315}
+t 238: train_loss = 2.813, norm = 7.599, test_acc = 0.832
+checkpoint ckpt_238.pt is saved...
+Round: 239/500
+Total local training loss is: 2.8972625732421875
+Total local training loss is: 2.75360107421875
+Total local training loss is: 2.7890625
+Total local training loss is: 2.8389663696289062
+attack:None
+defend:None
+{'accuracy': 0.8356}
+t 239: train_loss = 2.820, norm = 7.599, test_acc = 0.836
+checkpoint ckpt_239.pt is saved...
+Round: 240/500
+Total local training loss is: 2.806182861328125
+Total local training loss is: 2.78472900390625
+Total local training loss is: 2.73455810546875
+Total local training loss is: 2.9791259765625
+Total local training loss is: 2.751708984375
+attack:None
+defend:None
+{'accuracy': 0.832}
+t 240: train_loss = 2.811, norm = 7.599, test_acc = 0.832
+checkpoint ckpt_240.pt is saved...
+Round: 241/500
+Total local training loss is: 2.7388458251953125
+Total local training loss is: 2.813018798828125
+attack:None
+defend:None
+{'accuracy': 0.8284}
+t 241: train_loss = 2.776, norm = 7.599, test_acc = 0.828
+checkpoint ckpt_241.pt is saved...
+Round: 242/500
+Total local training loss is: 2.84454345703125
+Total local training loss is: 2.9548187255859375
+Total local training loss is: 2.889404296875
+Total local training loss is: 2.82012939453125
+Total local training loss is: 2.854095458984375
+Total local training loss is: 2.8014450073242188
+attack:None
+defend:None
+{'accuracy': 0.8355}
+t 242: train_loss = 2.861, norm = 7.599, test_acc = 0.836
+checkpoint ckpt_242.pt is saved...
+Round: 243/500
+Total local training loss is: 2.7790985107421875
+Total local training loss is: 2.7697067260742188
+Total local training loss is: 2.6961441040039062
+Total local training loss is: 2.8016510009765625
+attack:None
+defend:None
+{'accuracy': 0.837}
+t 243: train_loss = 2.762, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_243.pt is saved...
+Round: 244/500
+Total local training loss is: 2.7469863891601562
+Total local training loss is: 2.7291946411132812
+Total local training loss is: 2.6583404541015625
+Total local training loss is: 2.82440185546875
+attack:None
+defend:None
+{'accuracy': 0.8347}
+t 244: train_loss = 2.740, norm = 7.599, test_acc = 0.835
+checkpoint ckpt_244.pt is saved...
+Round: 245/500
+Total local training loss is: 2.6681976318359375
+Total local training loss is: 2.6585159301757812
+Total local training loss is: 2.7403030395507812
+attack:None
+defend:None
+{'accuracy': 0.825}
+t 245: train_loss = 2.689, norm = 7.599, test_acc = 0.825
+checkpoint ckpt_245.pt is saved...
+Round: 246/500
+Total local training loss is: 2.7561416625976562
+Total local training loss is: 2.8831787109375
+attack:None
+defend:None
+{'accuracy': 0.8284}
+t 246: train_loss = 2.820, norm = 7.598, test_acc = 0.828
+checkpoint ckpt_246.pt is saved...
+Round: 247/500
+Total local training loss is: 2.89678955078125
+Total local training loss is: 2.9196853637695312
+attack:None
+defend:None
+{'accuracy': 0.8264}
+t 247: train_loss = 2.908, norm = 7.599, test_acc = 0.826
+checkpoint ckpt_247.pt is saved...
+Round: 248/500
+Total local training loss is: 2.908447265625
+Total local training loss is: 2.7951736450195312
+Total local training loss is: 2.83642578125
+Total local training loss is: 2.8734817504882812
+attack:None
+defend:None
+{'accuracy': 0.8372}
+t 248: train_loss = 2.853, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_248.pt is saved...
+Round: 249/500
+Total local training loss is: 2.8411712646484375
+Total local training loss is: 2.8141021728515625
+attack:None
+defend:None
+{'accuracy': 0.8264}
+t 249: train_loss = 2.828, norm = 7.599, test_acc = 0.826
+checkpoint ckpt_249.pt is saved...
+Round: 250/500
+Total local training loss is: 2.7386856079101562
+attack:None
+defend:None
+{'accuracy': 0.8121}
+t 250: train_loss = 2.739, norm = 7.599, test_acc = 0.812
+checkpoint ckpt_250.pt is saved...
+Round: 251/500
+Total local training loss is: 2.965576171875
+Total local training loss is: 3.0526351928710938
+Total local training loss is: 2.9212188720703125
+Total local training loss is: 2.784393310546875
+Total local training loss is: 2.8348159790039062
+attack:None
+defend:None
+{'accuracy': 0.8308}
+t 251: train_loss = 2.912, norm = 7.600, test_acc = 0.831
+checkpoint ckpt_251.pt is saved...
+Round: 252/500
+Total local training loss is: 2.810699462890625
+Total local training loss is: 2.7252578735351562
+Total local training loss is: 2.7274322509765625
+attack:None
+defend:None
+{'accuracy': 0.8305}
+t 252: train_loss = 2.754, norm = 7.599, test_acc = 0.831
+checkpoint ckpt_252.pt is saved...
+Round: 253/500
+Total local training loss is: 2.6899337768554688
+Total local training loss is: 2.8376922607421875
+Total local training loss is: 2.8682174682617188
+attack:None
+defend:None
+{'accuracy': 0.8295}
+t 253: train_loss = 2.799, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_253.pt is saved...
+Round: 254/500
+Total local training loss is: 2.7948989868164062
+Total local training loss is: 2.7479400634765625
+attack:None
+defend:None
+{'accuracy': 0.83}
+t 254: train_loss = 2.771, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_254.pt is saved...
+Round: 255/500
+Total local training loss is: 2.8222732543945312
+Total local training loss is: 2.7186965942382812
+attack:None
+defend:None
+{'accuracy': 0.8271}
+t 255: train_loss = 2.770, norm = 7.600, test_acc = 0.827
+checkpoint ckpt_255.pt is saved...
+Round: 256/500
+Total local training loss is: 2.8494491577148438
+Total local training loss is: 2.733795166015625
+Total local training loss is: 3.016021728515625
+Total local training loss is: 2.742889404296875
+Total local training loss is: 2.8764572143554688
+attack:None
+defend:None
+{'accuracy': 0.835}
+t 256: train_loss = 2.844, norm = 7.599, test_acc = 0.835
+checkpoint ckpt_256.pt is saved...
+Round: 257/500
+Total local training loss is: 2.75787353515625
+Total local training loss is: 2.6889801025390625
+Total local training loss is: 2.781341552734375
+attack:None
+defend:None
+{'accuracy': 0.833}
+t 257: train_loss = 2.743, norm = 7.599, test_acc = 0.833
+checkpoint ckpt_257.pt is saved...
+Round: 258/500
+Total local training loss is: 2.8058395385742188
+Total local training loss is: 2.7618942260742188
+Total local training loss is: 2.7569656372070312
+Total local training loss is: 2.80645751953125
+Total local training loss is: 2.7523193359375
+attack:None
+defend:None
+{'accuracy': 0.8396}
+t 258: train_loss = 2.777, norm = 7.599, test_acc = 0.840
+checkpoint ckpt_258.pt is saved...
+Round: 259/500
+Total local training loss is: 2.6375579833984375
+Total local training loss is: 2.6400604248046875
+Total local training loss is: 2.7793121337890625
+attack:None
+defend:None
+{'accuracy': 0.8364}
+t 259: train_loss = 2.686, norm = 7.598, test_acc = 0.836
+checkpoint ckpt_259.pt is saved...
+Round: 260/500
+Total local training loss is: 2.7420578002929688
+Total local training loss is: 2.8543548583984375
+attack:None
+defend:None
+{'accuracy': 0.8215}
+t 260: train_loss = 2.798, norm = 7.599, test_acc = 0.822
+checkpoint ckpt_260.pt is saved...
+Round: 261/500
+Total local training loss is: 2.7951889038085938
+Total local training loss is: 2.7274169921875
+Total local training loss is: 2.8123016357421875
+Total local training loss is: 2.7250900268554688
+Total local training loss is: 2.8247528076171875
+attack:None
+defend:None
+{'accuracy': 0.8338}
+t 261: train_loss = 2.777, norm = 7.599, test_acc = 0.834
+checkpoint ckpt_261.pt is saved...
+Round: 262/500
+Total local training loss is: 2.761077880859375
+Total local training loss is: 2.7403182983398438
+Total local training loss is: 2.788360595703125
+attack:None
+defend:None
+{'accuracy': 0.8389}
+t 262: train_loss = 2.763, norm = 7.599, test_acc = 0.839
+checkpoint ckpt_262.pt is saved...
+Round: 263/500
+Total local training loss is: 2.7714920043945312
+attack:None
+defend:None
+{'accuracy': 0.796}
+t 263: train_loss = 2.771, norm = 7.599, test_acc = 0.796
+checkpoint ckpt_263.pt is saved...
+Round: 264/500
+Total local training loss is: 2.9561614990234375
+Total local training loss is: 2.9312286376953125
+Total local training loss is: 2.670013427734375
+Total local training loss is: 2.804473876953125
+Total local training loss is: 2.8967666625976562
+attack:None
+defend:None
+{'accuracy': 0.8317}
+t 264: train_loss = 2.852, norm = 7.600, test_acc = 0.832
+checkpoint ckpt_264.pt is saved...
+Round: 265/500
+Total local training loss is: 2.7817535400390625
+Total local training loss is: 2.7369537353515625
+Total local training loss is: 2.8293304443359375
+Total local training loss is: 2.7307968139648438
+attack:None
+defend:None
+{'accuracy': 0.8274}
+t 265: train_loss = 2.770, norm = 7.599, test_acc = 0.827
+checkpoint ckpt_265.pt is saved...
+Round: 266/500
+Total local training loss is: 2.7094268798828125
+Total local training loss is: 2.755126953125
+attack:None
+defend:None
+{'accuracy': 0.8275}
+t 266: train_loss = 2.732, norm = 7.599, test_acc = 0.828
+checkpoint ckpt_266.pt is saved...
+Round: 267/500
+Total local training loss is: 2.7368392944335938
+Total local training loss is: 2.8820877075195312
+Total local training loss is: 2.8420257568359375
+attack:None
+defend:None
+{'accuracy': 0.8267}
+t 267: train_loss = 2.820, norm = 7.600, test_acc = 0.827
+checkpoint ckpt_267.pt is saved...
+Round: 268/500
+Total local training loss is: 2.7243728637695312
+Total local training loss is: 2.7342910766601562
+Total local training loss is: 2.98321533203125
+Total local training loss is: 2.8111495971679688
+attack:None
+defend:None
+{'accuracy': 0.8428}
+t 268: train_loss = 2.813, norm = 7.599, test_acc = 0.843
+checkpoint ckpt_268.pt is saved...
+Round: 269/500
+Total local training loss is: 2.7877273559570312
+Total local training loss is: 2.7524490356445312
+Total local training loss is: 2.9033889770507812
+attack:None
+defend:None
+{'accuracy': 0.8298}
+t 269: train_loss = 2.815, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_269.pt is saved...
+Round: 270/500
+Total local training loss is: 2.7048797607421875
+Total local training loss is: 2.8668060302734375
+Total local training loss is: 2.7598648071289062
+Total local training loss is: 2.7331619262695312
+Total local training loss is: 2.7304229736328125
+Total local training loss is: 2.676666259765625
+Total local training loss is: 2.8397979736328125
+attack:None
+defend:None
+{'accuracy': 0.8404}
+t 270: train_loss = 2.759, norm = 7.599, test_acc = 0.840
+checkpoint ckpt_270.pt is saved...
+Round: 271/500
+Total local training loss is: 2.7293701171875
+Total local training loss is: 2.6268997192382812
+attack:None
+defend:None
+{'accuracy': 0.8282}
+t 271: train_loss = 2.678, norm = 7.599, test_acc = 0.828
+checkpoint ckpt_271.pt is saved...
+Round: 272/500
+Total local training loss is: 2.8180313110351562
+Total local training loss is: 2.6893844604492188
+Total local training loss is: 2.79388427734375
+Total local training loss is: 2.7264328002929688
+Total local training loss is: 2.9842987060546875
+attack:None
+defend:None
+{'accuracy': 0.8334}
+t 272: train_loss = 2.802, norm = 7.599, test_acc = 0.833
+checkpoint ckpt_272.pt is saved...
+Round: 273/500
+Total local training loss is: 2.7064437866210938
+Total local training loss is: 2.9077301025390625
+Total local training loss is: 2.6616897583007812
+attack:None
+defend:None
+{'accuracy': 0.8285}
+t 273: train_loss = 2.759, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_273.pt is saved...
+Round: 274/500
+Total local training loss is: 2.798370361328125
+Total local training loss is: 2.7599563598632812
+Total local training loss is: 2.8140716552734375
+Total local training loss is: 2.85186767578125
+attack:None
+defend:None
+{'accuracy': 0.8366}
+t 274: train_loss = 2.806, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_274.pt is saved...
+Round: 275/500
+Total local training loss is: 2.7600555419921875
+Total local training loss is: 2.8599777221679688
+attack:None
+defend:None
+{'accuracy': 0.8301}
+t 275: train_loss = 2.810, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_275.pt is saved...
+Round: 276/500
+Total local training loss is: 2.8192291259765625
+Total local training loss is: 2.7727890014648438
+Total local training loss is: 2.7378616333007812
+Total local training loss is: 2.7980575561523438
+attack:None
+defend:None
+{'accuracy': 0.8396}
+t 276: train_loss = 2.782, norm = 7.599, test_acc = 0.840
+checkpoint ckpt_276.pt is saved...
+Round: 277/500
+Total local training loss is: 2.8860397338867188
+Total local training loss is: 2.7959747314453125
+Total local training loss is: 2.775482177734375
+attack:None
+defend:None
+{'accuracy': 0.8344}
+t 277: train_loss = 2.819, norm = 7.599, test_acc = 0.834
+checkpoint ckpt_277.pt is saved...
+Round: 278/500
+Total local training loss is: 2.7999267578125
+Total local training loss is: 2.792755126953125
+Total local training loss is: 2.6155548095703125
+Total local training loss is: 2.8086776733398438
+Total local training loss is: 2.777923583984375
+attack:None
+defend:None
+{'accuracy': 0.8441}
+t 278: train_loss = 2.759, norm = 7.599, test_acc = 0.844
+checkpoint ckpt_278.pt is saved...
+Round: 279/500
+Total local training loss is: 2.6995315551757812
+Total local training loss is: 2.8533782958984375
+attack:None
+defend:None
+{'accuracy': 0.8198}
+t 279: train_loss = 2.776, norm = 7.599, test_acc = 0.820
+checkpoint ckpt_279.pt is saved...
+Round: 280/500
+Total local training loss is: 2.6511077880859375
+Total local training loss is: 2.6989669799804688
+Total local training loss is: 2.79345703125
+attack:None
+defend:None
+{'accuracy': 0.8406}
+t 280: train_loss = 2.715, norm = 7.599, test_acc = 0.841
+checkpoint ckpt_280.pt is saved...
+Round: 281/500
+Total local training loss is: 2.7406005859375
+Total local training loss is: 2.909149169921875
+Total local training loss is: 2.6521759033203125
+attack:None
+defend:None
+{'accuracy': 0.8241}
+t 281: train_loss = 2.767, norm = 7.600, test_acc = 0.824
+checkpoint ckpt_281.pt is saved...
+Round: 282/500
+Total local training loss is: 2.6041946411132812
+Total local training loss is: 2.823272705078125
+Total local training loss is: 2.6688613891601562
+Total local training loss is: 2.6737899780273438
+Total local training loss is: 2.7651901245117188
+attack:None
+defend:None
+{'accuracy': 0.8446}
+t 282: train_loss = 2.707, norm = 7.599, test_acc = 0.845
+checkpoint ckpt_282.pt is saved...
+Round: 283/500
+Total local training loss is: 2.6891021728515625
+Total local training loss is: 2.6715011596679688
+Total local training loss is: 2.7780380249023438
+Total local training loss is: 2.7677383422851562
+Total local training loss is: 2.8148880004882812
+Total local training loss is: 2.8022308349609375
+attack:None
+defend:None
+{'accuracy': 0.8319}
+t 283: train_loss = 2.754, norm = 7.599, test_acc = 0.832
+checkpoint ckpt_283.pt is saved...
+Round: 284/500
+Total local training loss is: 2.6953048706054688
+Total local training loss is: 2.7020034790039062
+Total local training loss is: 2.6887893676757812
+Total local training loss is: 2.7983932495117188
+Total local training loss is: 2.7154083251953125
+attack:None
+defend:None
+{'accuracy': 0.8384}
+t 284: train_loss = 2.720, norm = 7.599, test_acc = 0.838
+checkpoint ckpt_284.pt is saved...
+Round: 285/500
+Total local training loss is: 2.7990264892578125
+Total local training loss is: 2.683929443359375
+Total local training loss is: 2.7300872802734375
+Total local training loss is: 2.9086380004882812
+Total local training loss is: 2.714813232421875
+Total local training loss is: 2.8091201782226562
+attack:None
+defend:None
+{'accuracy': 0.8366}
+t 285: train_loss = 2.774, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_285.pt is saved...
+Round: 286/500
+Total local training loss is: 2.8333969116210938
+Total local training loss is: 2.5936813354492188
+attack:None
+defend:None
+{'accuracy': 0.8275}
+t 286: train_loss = 2.714, norm = 7.599, test_acc = 0.828
+checkpoint ckpt_286.pt is saved...
+Round: 287/500
+Total local training loss is: 2.7798614501953125
+Total local training loss is: 2.7325057983398438
+Total local training loss is: 2.7716064453125
+Total local training loss is: 2.77130126953125
+attack:None
+defend:None
+{'accuracy': 0.833}
+t 287: train_loss = 2.764, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_287.pt is saved...
+Round: 288/500
+Total local training loss is: 2.741241455078125
+Total local training loss is: 2.6073837280273438
+Total local training loss is: 2.7882766723632812
+Total local training loss is: 2.7215576171875
+attack:None
+defend:None
+{'accuracy': 0.829}
+t 288: train_loss = 2.715, norm = 7.599, test_acc = 0.829
+checkpoint ckpt_288.pt is saved...
+Round: 289/500
+Total local training loss is: 2.7420806884765625
+attack:None
+defend:None
+{'accuracy': 0.8139}
+t 289: train_loss = 2.742, norm = 7.599, test_acc = 0.814
+checkpoint ckpt_289.pt is saved...
+Round: 290/500
+Total local training loss is: 2.8528289794921875
+Total local training loss is: 2.8925247192382812
+Total local training loss is: 2.7334442138671875
+Total local training loss is: 2.943450927734375
+Total local training loss is: 2.784759521484375
+attack:None
+defend:None
+{'accuracy': 0.8354}
+t 290: train_loss = 2.841, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_290.pt is saved...
+Round: 291/500
+Total local training loss is: 2.8193359375
+Total local training loss is: 2.77313232421875
+Total local training loss is: 2.8451385498046875
+attack:None
+defend:None
+{'accuracy': 0.8253}
+t 291: train_loss = 2.813, norm = 7.599, test_acc = 0.825
+checkpoint ckpt_291.pt is saved...
+Round: 292/500
+Total local training loss is: 2.7767486572265625
+Total local training loss is: 2.8499755859375
+attack:None
+defend:None
+{'accuracy': 0.8327}
+t 292: train_loss = 2.813, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_292.pt is saved...
+Round: 293/500
+Total local training loss is: 2.6908645629882812
+Total local training loss is: 2.7337646484375
+Total local training loss is: 2.7063522338867188
+attack:None
+defend:None
+{'accuracy': 0.8361}
+t 293: train_loss = 2.710, norm = 7.599, test_acc = 0.836
+checkpoint ckpt_293.pt is saved...
+Round: 294/500
+Total local training loss is: 2.7134857177734375
+attack:None
+defend:None
+{'accuracy': 0.8129}
+t 294: train_loss = 2.713, norm = 7.599, test_acc = 0.813
+checkpoint ckpt_294.pt is saved...
+Round: 295/500
+Total local training loss is: 2.79351806640625
+Total local training loss is: 2.7900009155273438
+Total local training loss is: 2.7261962890625
+attack:None
+defend:None
+{'accuracy': 0.8414}
+t 295: train_loss = 2.770, norm = 7.600, test_acc = 0.841
+checkpoint ckpt_295.pt is saved...
+Round: 296/500
+Total local training loss is: 2.7374343872070312
+Total local training loss is: 2.8466262817382812
+Total local training loss is: 2.5938720703125
+attack:None
+defend:None
+{'accuracy': 0.8215}
+t 296: train_loss = 2.726, norm = 7.600, test_acc = 0.822
+checkpoint ckpt_296.pt is saved...
+Round: 297/500
+Total local training loss is: 2.9504165649414062
+Total local training loss is: 2.7223281860351562
+attack:None
+defend:None
+{'accuracy': 0.8328}
+t 297: train_loss = 2.836, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_297.pt is saved...
+Round: 298/500
+Total local training loss is: 2.761566162109375
+Total local training loss is: 2.810821533203125
+Total local training loss is: 2.8731842041015625
+Total local training loss is: 2.7045669555664062
+Total local training loss is: 2.74188232421875
+attack:None
+defend:None
+{'accuracy': 0.8347}
+t 298: train_loss = 2.778, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_298.pt is saved...
+Round: 299/500
+Total local training loss is: 2.6590118408203125
+Total local training loss is: 2.6481704711914062
+Total local training loss is: 2.7061920166015625
+Total local training loss is: 2.7908172607421875
+Total local training loss is: 2.8088760375976562
+attack:None
+defend:None
+{'accuracy': 0.8387}
+t 299: train_loss = 2.723, norm = 7.599, test_acc = 0.839
+checkpoint ckpt_299.pt is saved...
+Round: 300/500
+Total local training loss is: 2.6995010375976562
+Total local training loss is: 2.7110061645507812
+Total local training loss is: 2.64007568359375
+Total local training loss is: 2.80584716796875
+attack:None
+defend:None
+{'accuracy': 0.8325}
+t 300: train_loss = 2.714, norm = 7.599, test_acc = 0.833
+checkpoint ckpt_300.pt is saved...
+Round: 301/500
+Total local training loss is: 2.6575698852539062
+Total local training loss is: 2.6772003173828125
+Total local training loss is: 2.7729415893554688
+Total local training loss is: 2.6939163208007812
+Total local training loss is: 2.7602157592773438
+attack:None
+defend:None
+{'accuracy': 0.842}
+t 301: train_loss = 2.712, norm = 7.599, test_acc = 0.842
+checkpoint ckpt_301.pt is saved...
+Round: 302/500
+Total local training loss is: 2.6600875854492188
+Total local training loss is: 2.8397369384765625
+Total local training loss is: 2.7288894653320312
+attack:None
+defend:None
+{'accuracy': 0.8297}
+t 302: train_loss = 2.743, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_302.pt is saved...
+Round: 303/500
+Total local training loss is: 2.7564468383789062
+Total local training loss is: 2.7419662475585938
+attack:None
+defend:None
+{'accuracy': 0.8315}
+t 303: train_loss = 2.749, norm = 7.599, test_acc = 0.832
+checkpoint ckpt_303.pt is saved...
+Round: 304/500
+Total local training loss is: 2.6945571899414062
+Total local training loss is: 2.761474609375
+Total local training loss is: 2.780517578125
+Total local training loss is: 2.8575592041015625
+attack:None
+defend:None
+{'accuracy': 0.8394}
+t 304: train_loss = 2.774, norm = 7.599, test_acc = 0.839
+checkpoint ckpt_304.pt is saved...
+Round: 305/500
+Total local training loss is: 2.764862060546875
+Total local training loss is: 2.8754425048828125
+Total local training loss is: 2.7205810546875
+Total local training loss is: 2.9561614990234375
+attack:None
+defend:None
+{'accuracy': 0.8387}
+t 305: train_loss = 2.829, norm = 7.599, test_acc = 0.839
+checkpoint ckpt_305.pt is saved...
+Round: 306/500
+Total local training loss is: 2.5846176147460938
+Total local training loss is: 2.6441421508789062
+Total local training loss is: 2.6303176879882812
+Total local training loss is: 2.5942306518554688
+attack:None
+defend:None
+{'accuracy': 0.8391}
+t 306: train_loss = 2.613, norm = 7.599, test_acc = 0.839
+checkpoint ckpt_306.pt is saved...
+Round: 307/500
+Total local training loss is: 2.6778030395507812
+Total local training loss is: 2.83251953125
+Total local training loss is: 2.7407302856445312
+attack:None
+defend:None
+{'accuracy': 0.8367}
+t 307: train_loss = 2.750, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_307.pt is saved...
+Round: 308/500
+Total local training loss is: 2.6460342407226562
+Total local training loss is: 2.6871566772460938
+Total local training loss is: 2.6401138305664062
+attack:None
+defend:None
+{'accuracy': 0.8342}
+t 308: train_loss = 2.658, norm = 7.599, test_acc = 0.834
+checkpoint ckpt_308.pt is saved...
+Round: 309/500
+Total local training loss is: 2.7145767211914062
+Total local training loss is: 2.866546630859375
+Total local training loss is: 2.6734542846679688
+Total local training loss is: 2.7000045776367188
+Total local training loss is: 2.712127685546875
+Total local training loss is: 2.7120742797851562
+attack:None
+defend:None
+{'accuracy': 0.8443}
+t 309: train_loss = 2.730, norm = 7.600, test_acc = 0.844
+checkpoint ckpt_309.pt is saved...
+Round: 310/500
+Total local training loss is: 2.7367935180664062
+attack:None
+defend:None
+{'accuracy': 0.8035}
+t 310: train_loss = 2.737, norm = 7.599, test_acc = 0.803
+checkpoint ckpt_310.pt is saved...
+Round: 311/500
+Total local training loss is: 2.7067947387695312
+Total local training loss is: 2.8870086669921875
+attack:None
+defend:None
+{'accuracy': 0.8332}
+t 311: train_loss = 2.797, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_311.pt is saved...
+Round: 312/500
+Total local training loss is: 2.89031982421875
+attack:None
+defend:None
+{'accuracy': 0.8135}
+t 312: train_loss = 2.890, norm = 7.600, test_acc = 0.814
+checkpoint ckpt_312.pt is saved...
+Round: 313/500
+Total local training loss is: 2.7800979614257812
+Total local training loss is: 2.8063888549804688
+attack:None
+defend:None
+{'accuracy': 0.8366}
+t 313: train_loss = 2.793, norm = 7.600, test_acc = 0.837
+checkpoint ckpt_313.pt is saved...
+Round: 314/500
+Total local training loss is: 2.8130950927734375
+Total local training loss is: 2.687957763671875
+Total local training loss is: 2.7305526733398438
+Total local training loss is: 2.7844696044921875
+attack:None
+defend:None
+{'accuracy': 0.8342}
+t 314: train_loss = 2.754, norm = 7.599, test_acc = 0.834
+checkpoint ckpt_314.pt is saved...
+Round: 315/500
+Total local training loss is: 2.6958160400390625
+Total local training loss is: 2.6861953735351562
+Total local training loss is: 2.6152572631835938
+attack:None
+defend:None
+{'accuracy': 0.8339}
+t 315: train_loss = 2.666, norm = 7.599, test_acc = 0.834
+checkpoint ckpt_315.pt is saved...
+Round: 316/500
+Total local training loss is: 2.6804580688476562
+Total local training loss is: 2.79901123046875
+Total local training loss is: 2.827392578125
+attack:None
+defend:None
+{'accuracy': 0.8382}
+t 316: train_loss = 2.769, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_316.pt is saved...
+Round: 317/500
+Total local training loss is: 2.7231903076171875
+Total local training loss is: 2.6471939086914062
+Total local training loss is: 2.6662979125976562
+Total local training loss is: 2.7355804443359375
+attack:None
+defend:None
+{'accuracy': 0.835}
+t 317: train_loss = 2.693, norm = 7.599, test_acc = 0.835
+checkpoint ckpt_317.pt is saved...
+Round: 318/500
+Total local training loss is: 2.7065505981445312
+Total local training loss is: 2.7794723510742188
+attack:None
+defend:None
+{'accuracy': 0.8272}
+t 318: train_loss = 2.743, norm = 7.600, test_acc = 0.827
+checkpoint ckpt_318.pt is saved...
+Round: 319/500
+Total local training loss is: 2.869964599609375
+Total local training loss is: 2.743804931640625
+attack:None
+defend:None
+{'accuracy': 0.8321}
+t 319: train_loss = 2.807, norm = 7.600, test_acc = 0.832
+checkpoint ckpt_319.pt is saved...
+Round: 320/500
+Total local training loss is: 2.61236572265625
+Total local training loss is: 2.8228302001953125
+Total local training loss is: 2.7343673706054688
+Total local training loss is: 2.7355880737304688
+attack:None
+defend:None
+{'accuracy': 0.8319}
+t 320: train_loss = 2.726, norm = 7.600, test_acc = 0.832
+checkpoint ckpt_320.pt is saved...
+Round: 321/500
+Total local training loss is: 2.7290191650390625
+Total local training loss is: 2.6644668579101562
+Total local training loss is: 2.7132415771484375
+Total local training loss is: 2.7628097534179688
+attack:None
+defend:None
+{'accuracy': 0.8398}
+t 321: train_loss = 2.717, norm = 7.599, test_acc = 0.840
+checkpoint ckpt_321.pt is saved...
+Round: 322/500
+Total local training loss is: 2.791229248046875
+attack:None
+defend:None
+{'accuracy': 0.8191}
+t 322: train_loss = 2.791, norm = 7.599, test_acc = 0.819
+checkpoint ckpt_322.pt is saved...
+Round: 323/500
+Total local training loss is: 2.816192626953125
+Total local training loss is: 2.816131591796875
+attack:None
+defend:None
+{'accuracy': 0.8348}
+t 323: train_loss = 2.816, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_323.pt is saved...
+Round: 324/500
+Total local training loss is: 2.6202850341796875
+Total local training loss is: 2.8487014770507812
+Total local training loss is: 2.6253585815429688
+attack:None
+defend:None
+{'accuracy': 0.8295}
+t 324: train_loss = 2.698, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_324.pt is saved...
+Round: 325/500
+Total local training loss is: 2.7545318603515625
+Total local training loss is: 2.767974853515625
+Total local training loss is: 2.7751846313476562
+attack:None
+defend:None
+{'accuracy': 0.8293}
+t 325: train_loss = 2.766, norm = 7.600, test_acc = 0.829
+checkpoint ckpt_325.pt is saved...
+Round: 326/500
+Total local training loss is: 2.6293258666992188
+Total local training loss is: 2.6635284423828125
+Total local training loss is: 2.7756271362304688
+Total local training loss is: 2.7415771484375
+attack:None
+defend:None
+{'accuracy': 0.8302}
+t 326: train_loss = 2.703, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_326.pt is saved...
+Round: 327/500
+Total local training loss is: 2.6477508544921875
+attack:None
+defend:None
+{'accuracy': 0.808}
+t 327: train_loss = 2.648, norm = 7.599, test_acc = 0.808
+checkpoint ckpt_327.pt is saved...
+Round: 328/500
+Total local training loss is: 2.6941299438476562
+Total local training loss is: 2.811981201171875
+Total local training loss is: 2.7137527465820312
+Total local training loss is: 2.9167327880859375
+attack:None
+defend:None
+{'accuracy': 0.8294}
+t 328: train_loss = 2.784, norm = 7.600, test_acc = 0.829
+checkpoint ckpt_328.pt is saved...
+Round: 329/500
+Total local training loss is: 2.6607818603515625
+attack:None
+defend:None
+{'accuracy': 0.8106}
+t 329: train_loss = 2.661, norm = 7.599, test_acc = 0.811
+checkpoint ckpt_329.pt is saved...
+Round: 330/500
+Total local training loss is: 2.781402587890625
+Total local training loss is: 2.8216629028320312
+Total local training loss is: 2.7513885498046875
+Total local training loss is: 2.7357177734375
+Total local training loss is: 2.7511444091796875
+attack:None
+defend:None
+{'accuracy': 0.8326}
+t 330: train_loss = 2.768, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_330.pt is saved...
+Round: 331/500
+Total local training loss is: 2.7409896850585938
+Total local training loss is: 2.6720657348632812
+Total local training loss is: 2.6183547973632812
+Total local training loss is: 2.7303009033203125
+attack:None
+defend:None
+{'accuracy': 0.8311}
+t 331: train_loss = 2.690, norm = 7.599, test_acc = 0.831
+checkpoint ckpt_331.pt is saved...
+Round: 332/500
+Total local training loss is: 2.6593170166015625
+Total local training loss is: 2.8602142333984375
+Total local training loss is: 2.7520828247070312
+attack:None
+defend:None
+{'accuracy': 0.8305}
+t 332: train_loss = 2.757, norm = 7.599, test_acc = 0.831
+checkpoint ckpt_332.pt is saved...
+Round: 333/500
+Total local training loss is: 2.6024703979492188
+Total local training loss is: 2.6812896728515625
+Total local training loss is: 2.6855316162109375
+Total local training loss is: 2.7677459716796875
+attack:None
+defend:None
+{'accuracy': 0.8345}
+t 333: train_loss = 2.684, norm = 7.599, test_acc = 0.835
+checkpoint ckpt_333.pt is saved...
+Round: 334/500
+Total local training loss is: 2.67388916015625
+Total local training loss is: 2.7712020874023438
+Total local training loss is: 2.73876953125
+attack:None
+defend:None
+{'accuracy': 0.8331}
+t 334: train_loss = 2.728, norm = 7.599, test_acc = 0.833
+checkpoint ckpt_334.pt is saved...
+Round: 335/500
+Total local training loss is: 2.7174224853515625
+Total local training loss is: 2.6034393310546875
+attack:None
+defend:None
+{'accuracy': 0.8296}
+t 335: train_loss = 2.660, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_335.pt is saved...
+Round: 336/500
+Total local training loss is: 2.65185546875
+Total local training loss is: 2.834075927734375
+Total local training loss is: 2.8018646240234375
+attack:None
+defend:None
+{'accuracy': 0.8431}
+t 336: train_loss = 2.763, norm = 7.600, test_acc = 0.843
+checkpoint ckpt_336.pt is saved...
+Round: 337/500
+Total local training loss is: 2.7030792236328125
+Total local training loss is: 2.79144287109375
+Total local training loss is: 2.69073486328125
+attack:None
+defend:None
+{'accuracy': 0.8259}
+t 337: train_loss = 2.728, norm = 7.600, test_acc = 0.826
+checkpoint ckpt_337.pt is saved...
+Round: 338/500
+Total local training loss is: 2.6282958984375
+Total local training loss is: 2.7847137451171875
+Total local training loss is: 2.6912460327148438
+Total local training loss is: 2.7287750244140625
+Total local training loss is: 2.712127685546875
+Total local training loss is: 2.6320114135742188
+attack:None
+defend:None
+{'accuracy': 0.8406}
+t 338: train_loss = 2.696, norm = 7.600, test_acc = 0.841
+checkpoint ckpt_338.pt is saved...
+Round: 339/500
+Total local training loss is: 2.631317138671875
+Total local training loss is: 2.7475662231445312
+Total local training loss is: 2.7210922241210938
+Total local training loss is: 2.7627944946289062
+Total local training loss is: 2.7617034912109375
+attack:None
+defend:None
+{'accuracy': 0.8377}
+t 339: train_loss = 2.725, norm = 7.599, test_acc = 0.838
+checkpoint ckpt_339.pt is saved...
+Round: 340/500
+Total local training loss is: 2.8273391723632812
+Total local training loss is: 2.7240676879882812
+attack:None
+defend:None
+{'accuracy': 0.8334}
+t 340: train_loss = 2.776, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_340.pt is saved...
+Round: 341/500
+Total local training loss is: 2.824554443359375
+Total local training loss is: 2.6728973388671875
+Total local training loss is: 2.6772003173828125
+Total local training loss is: 2.675018310546875
+attack:None
+defend:None
+{'accuracy': 0.8313}
+t 341: train_loss = 2.712, norm = 7.599, test_acc = 0.831
+checkpoint ckpt_341.pt is saved...
+Round: 342/500
+Total local training loss is: 2.6895599365234375
+Total local training loss is: 2.783294677734375
+Total local training loss is: 2.6620025634765625
+attack:None
+defend:None
+{'accuracy': 0.8404}
+t 342: train_loss = 2.712, norm = 7.600, test_acc = 0.840
+checkpoint ckpt_342.pt is saved...
+Round: 343/500
+Total local training loss is: 2.6268692016601562
+Total local training loss is: 2.6996536254882812
+Total local training loss is: 2.773040771484375
+Total local training loss is: 2.75799560546875
+attack:None
+defend:None
+{'accuracy': 0.8432}
+t 343: train_loss = 2.714, norm = 7.599, test_acc = 0.843
+checkpoint ckpt_343.pt is saved...
+Round: 344/500
+Total local training loss is: 2.6680679321289062
+Total local training loss is: 2.6841583251953125
+Total local training loss is: 2.6744461059570312
+Total local training loss is: 2.5013427734375
+Total local training loss is: 2.7233352661132812
+attack:None
+defend:None
+{'accuracy': 0.8446}
+t 344: train_loss = 2.650, norm = 7.599, test_acc = 0.845
+checkpoint ckpt_344.pt is saved...
+Round: 345/500
+Total local training loss is: 2.5792922973632812
+Total local training loss is: 2.75604248046875
+Total local training loss is: 2.5868911743164062
+Total local training loss is: 2.6573104858398438
+Total local training loss is: 2.6693878173828125
+attack:None
+defend:None
+{'accuracy': 0.8425}
+t 345: train_loss = 2.650, norm = 7.599, test_acc = 0.843
+checkpoint ckpt_345.pt is saved...
+Round: 346/500
+Total local training loss is: 2.739715576171875
+Total local training loss is: 2.6886978149414062
+Total local training loss is: 2.7111358642578125
+Total local training loss is: 2.7328109741210938
+Total local training loss is: 2.6621246337890625
+attack:None
+defend:None
+{'accuracy': 0.8469}
+t 346: train_loss = 2.707, norm = 7.599, test_acc = 0.847
+checkpoint ckpt_346.pt is saved...
+Round: 347/500
+Total local training loss is: 2.6593246459960938
+Total local training loss is: 2.6518783569335938
+Total local training loss is: 2.497955322265625
+Total local training loss is: 2.6896133422851562
+Total local training loss is: 2.6795196533203125
+attack:None
+defend:None
+{'accuracy': 0.8354}
+t 347: train_loss = 2.636, norm = 7.599, test_acc = 0.835
+checkpoint ckpt_347.pt is saved...
+Round: 348/500
+Total local training loss is: 2.6985931396484375
+Total local training loss is: 2.5682830810546875
+attack:None
+defend:None
+{'accuracy': 0.838}
+t 348: train_loss = 2.633, norm = 7.599, test_acc = 0.838
+checkpoint ckpt_348.pt is saved...
+Round: 349/500
+Total local training loss is: 2.7166366577148438
+Total local training loss is: 2.79547119140625
+attack:None
+defend:None
+{'accuracy': 0.8276}
+t 349: train_loss = 2.756, norm = 7.600, test_acc = 0.828
+checkpoint ckpt_349.pt is saved...
+Round: 350/500
+Total local training loss is: 2.77685546875
+Total local training loss is: 2.820098876953125
+Total local training loss is: 2.6555404663085938
+Total local training loss is: 2.7300033569335938
+attack:None
+defend:None
+{'accuracy': 0.8404}
+t 350: train_loss = 2.746, norm = 7.600, test_acc = 0.840
+checkpoint ckpt_350.pt is saved...
+Round: 351/500
+Total local training loss is: 2.72576904296875
+Total local training loss is: 2.7631301879882812
+Total local training loss is: 2.7076187133789062
+Total local training loss is: 2.7701797485351562
+attack:None
+defend:None
+{'accuracy': 0.8418}
+t 351: train_loss = 2.742, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_351.pt is saved...
+Round: 352/500
+Total local training loss is: 2.5781707763671875
+Total local training loss is: 2.7264862060546875
+Total local training loss is: 2.649261474609375
+Total local training loss is: 2.7337112426757812
+attack:None
+defend:None
+{'accuracy': 0.8446}
+t 352: train_loss = 2.672, norm = 7.599, test_acc = 0.845
+checkpoint ckpt_352.pt is saved...
+Round: 353/500
+Total local training loss is: 2.570220947265625
+Total local training loss is: 2.6766815185546875
+Total local training loss is: 2.6683807373046875
+Total local training loss is: 2.6634979248046875
+attack:None
+defend:None
+{'accuracy': 0.8341}
+t 353: train_loss = 2.645, norm = 7.599, test_acc = 0.834
+checkpoint ckpt_353.pt is saved...
+Round: 354/500
+Total local training loss is: 2.6792755126953125
+Total local training loss is: 2.6842269897460938
+Total local training loss is: 2.6516265869140625
+Total local training loss is: 2.7861785888671875
+Total local training loss is: 2.663818359375
+attack:None
+defend:None
+{'accuracy': 0.838}
+t 354: train_loss = 2.693, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_354.pt is saved...
+Round: 355/500
+Total local training loss is: 2.7668380737304688
+Total local training loss is: 2.7443084716796875
+Total local training loss is: 2.8683547973632812
+Total local training loss is: 2.5703125
+attack:None
+defend:None
+{'accuracy': 0.8426}
+t 355: train_loss = 2.737, norm = 7.599, test_acc = 0.843
+checkpoint ckpt_355.pt is saved...
+Round: 356/500
+Total local training loss is: 2.6380386352539062
+Total local training loss is: 2.7118682861328125
+Total local training loss is: 2.7024917602539062
+Total local training loss is: 2.6554489135742188
+Total local training loss is: 2.6405868530273438
+attack:None
+defend:None
+{'accuracy': 0.8346}
+t 356: train_loss = 2.670, norm = 7.599, test_acc = 0.835
+checkpoint ckpt_356.pt is saved...
+Round: 357/500
+Total local training loss is: 2.6650161743164062
+Total local training loss is: 2.5294647216796875
+attack:None
+defend:None
+{'accuracy': 0.8257}
+t 357: train_loss = 2.597, norm = 7.599, test_acc = 0.826
+checkpoint ckpt_357.pt is saved...
+Round: 358/500
+Total local training loss is: 2.6826019287109375
+Total local training loss is: 2.5861129760742188
+Total local training loss is: 2.6715011596679688
+Total local training loss is: 2.7290573120117188
+Total local training loss is: 2.5284347534179688
+attack:None
+defend:None
+{'accuracy': 0.8379}
+t 358: train_loss = 2.640, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_358.pt is saved...
+Round: 359/500
+Total local training loss is: 2.5335159301757812
+Total local training loss is: 2.5943756103515625
+attack:None
+defend:None
+{'accuracy': 0.8295}
+t 359: train_loss = 2.564, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_359.pt is saved...
+Round: 360/500
+Total local training loss is: 2.6399688720703125
+Total local training loss is: 2.7057952880859375
+Total local training loss is: 2.6425933837890625
+Total local training loss is: 2.7144546508789062
+attack:None
+defend:None
+{'accuracy': 0.8466}
+t 360: train_loss = 2.676, norm = 7.600, test_acc = 0.847
+checkpoint ckpt_360.pt is saved...
+Round: 361/500
+Total local training loss is: 2.6637420654296875
+Total local training loss is: 2.7090301513671875
+Total local training loss is: 2.76776123046875
+attack:None
+defend:None
+{'accuracy': 0.8379}
+t 361: train_loss = 2.714, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_361.pt is saved...
+Round: 362/500
+Total local training loss is: 2.6408233642578125
+Total local training loss is: 2.7199859619140625
+Total local training loss is: 2.64483642578125
+Total local training loss is: 2.7620162963867188
+Total local training loss is: 2.6866836547851562
+Total local training loss is: 2.6939849853515625
+attack:None
+defend:None
+{'accuracy': 0.8437}
+t 362: train_loss = 2.691, norm = 7.599, test_acc = 0.844
+checkpoint ckpt_362.pt is saved...
+Round: 363/500
+Total local training loss is: 2.6447219848632812
+Total local training loss is: 2.82470703125
+Total local training loss is: 2.5420989990234375
+Total local training loss is: 2.7203292846679688
+Total local training loss is: 2.6451187133789062
+Total local training loss is: 2.7015838623046875
+attack:None
+defend:None
+{'accuracy': 0.8344}
+t 363: train_loss = 2.680, norm = 7.600, test_acc = 0.834
+checkpoint ckpt_363.pt is saved...
+Round: 364/500
+Total local training loss is: 2.571685791015625
+Total local training loss is: 2.6584320068359375
+attack:None
+defend:None
+{'accuracy': 0.8234}
+t 364: train_loss = 2.615, norm = 7.599, test_acc = 0.823
+checkpoint ckpt_364.pt is saved...
+Round: 365/500
+Total local training loss is: 2.6940155029296875
+Total local training loss is: 2.5752334594726562
+Total local training loss is: 2.7178497314453125
+attack:None
+defend:None
+{'accuracy': 0.8318}
+t 365: train_loss = 2.662, norm = 7.600, test_acc = 0.832
+checkpoint ckpt_365.pt is saved...
+Round: 366/500
+Total local training loss is: 2.496612548828125
+Total local training loss is: 2.6534576416015625
+Total local training loss is: 2.845123291015625
+Total local training loss is: 2.6986083984375
+Total local training loss is: 2.5766220092773438
+Total local training loss is: 2.6833648681640625
+attack:None
+defend:None
+{'accuracy': 0.8414}
+t 366: train_loss = 2.659, norm = 7.600, test_acc = 0.841
+checkpoint ckpt_366.pt is saved...
+Round: 367/500
+Total local training loss is: 2.6777114868164062
+Total local training loss is: 2.640228271484375
+attack:None
+defend:None
+{'accuracy': 0.8324}
+t 367: train_loss = 2.659, norm = 7.600, test_acc = 0.832
+checkpoint ckpt_367.pt is saved...
+Round: 368/500
+Total local training loss is: 2.6970977783203125
+Total local training loss is: 2.6147842407226562
+Total local training loss is: 2.6521987915039062
+Total local training loss is: 2.653778076171875
+attack:None
+defend:None
+{'accuracy': 0.8455}
+t 368: train_loss = 2.654, norm = 7.600, test_acc = 0.846
+checkpoint ckpt_368.pt is saved...
+Round: 369/500
+Total local training loss is: 2.6655654907226562
+Total local training loss is: 2.7100830078125
+Total local training loss is: 2.7012252807617188
+attack:None
+defend:None
+{'accuracy': 0.8423}
+t 369: train_loss = 2.692, norm = 7.599, test_acc = 0.842
+checkpoint ckpt_369.pt is saved...
+Round: 370/500
+Total local training loss is: 2.74957275390625
+Total local training loss is: 2.6879348754882812
+Total local training loss is: 2.795684814453125
+Total local training loss is: 2.6467514038085938
+Total local training loss is: 2.6344223022460938
+attack:None
+defend:None
+{'accuracy': 0.8433}
+t 370: train_loss = 2.703, norm = 7.600, test_acc = 0.843
+checkpoint ckpt_370.pt is saved...
+Round: 371/500
+Total local training loss is: 2.88092041015625
+Total local training loss is: 2.6865234375
+Total local training loss is: 2.5869064331054688
+Total local training loss is: 2.7281036376953125
+attack:None
+defend:None
+{'accuracy': 0.8384}
+t 371: train_loss = 2.721, norm = 7.599, test_acc = 0.838
+checkpoint ckpt_371.pt is saved...
+Round: 372/500
+Total local training loss is: 2.760528564453125
+Total local training loss is: 2.6313400268554688
+Total local training loss is: 2.6172409057617188
+Total local training loss is: 2.6967926025390625
+Total local training loss is: 2.5267410278320312
+Total local training loss is: 2.67230224609375
+attack:None
+defend:None
+{'accuracy': 0.8444}
+t 372: train_loss = 2.651, norm = 7.599, test_acc = 0.844
+checkpoint ckpt_372.pt is saved...
+Round: 373/500
+Total local training loss is: 2.64697265625
+attack:None
+defend:None
+{'accuracy': 0.8174}
+t 373: train_loss = 2.647, norm = 7.600, test_acc = 0.817
+checkpoint ckpt_373.pt is saved...
+Round: 374/500
+Total local training loss is: 2.7739944458007812
+Total local training loss is: 2.7206497192382812
+Total local training loss is: 2.6604690551757812
+Total local training loss is: 2.7515792846679688
+Total local training loss is: 2.6406784057617188
+attack:None
+defend:None
+{'accuracy': 0.8356}
+t 374: train_loss = 2.709, norm = 7.600, test_acc = 0.836
+checkpoint ckpt_374.pt is saved...
+Round: 375/500
+Total local training loss is: 2.6630935668945312
+Total local training loss is: 2.6316986083984375
+Total local training loss is: 2.612945556640625
+Total local training loss is: 2.582916259765625
+Total local training loss is: 2.7611465454101562
+attack:None
+defend:None
+{'accuracy': 0.8412}
+t 375: train_loss = 2.650, norm = 7.600, test_acc = 0.841
+checkpoint ckpt_375.pt is saved...
+Round: 376/500
+Total local training loss is: 2.59588623046875
+Total local training loss is: 2.560333251953125
+Total local training loss is: 2.58380126953125
+Total local training loss is: 2.6739120483398438
+attack:None
+defend:None
+{'accuracy': 0.8427}
+t 376: train_loss = 2.603, norm = 7.599, test_acc = 0.843
+checkpoint ckpt_376.pt is saved...
+Round: 377/500
+Total local training loss is: 2.645965576171875
+Total local training loss is: 2.631011962890625
+Total local training loss is: 2.7073593139648438
+attack:None
+defend:None
+{'accuracy': 0.8351}
+t 377: train_loss = 2.661, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_377.pt is saved...
+Round: 378/500
+Total local training loss is: 2.47662353515625
+attack:None
+defend:None
+{'accuracy': 0.8031}
+t 378: train_loss = 2.477, norm = 7.599, test_acc = 0.803
+checkpoint ckpt_378.pt is saved...
+Round: 379/500
+Total local training loss is: 2.77581787109375
+Total local training loss is: 2.6529541015625
+Total local training loss is: 2.682342529296875
+Total local training loss is: 2.6678695678710938
+Total local training loss is: 2.7250518798828125
+attack:None
+defend:None
+{'accuracy': 0.8366}
+t 379: train_loss = 2.701, norm = 7.600, test_acc = 0.837
+checkpoint ckpt_379.pt is saved...
+Round: 380/500
+Total local training loss is: 2.6160354614257812
+Total local training loss is: 2.6706771850585938
+attack:None
+defend:None
+{'accuracy': 0.819}
+t 380: train_loss = 2.643, norm = 7.600, test_acc = 0.819
+checkpoint ckpt_380.pt is saved...
+Round: 381/500
+Total local training loss is: 2.7385025024414062
+Total local training loss is: 2.7616806030273438
+Total local training loss is: 2.6157608032226562
+attack:None
+defend:None
+{'accuracy': 0.8404}
+t 381: train_loss = 2.705, norm = 7.600, test_acc = 0.840
+checkpoint ckpt_381.pt is saved...
+Round: 382/500
+Total local training loss is: 2.7397003173828125
+Total local training loss is: 2.7937469482421875
+Total local training loss is: 2.8286056518554688
+attack:None
+defend:None
+{'accuracy': 0.8351}
+t 382: train_loss = 2.787, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_382.pt is saved...
+Round: 383/500
+Total local training loss is: 2.7156143188476562
+Total local training loss is: 2.6541061401367188
+Total local training loss is: 2.6307373046875
+Total local training loss is: 2.6305465698242188
+attack:None
+defend:None
+{'accuracy': 0.847}
+t 383: train_loss = 2.658, norm = 7.600, test_acc = 0.847
+checkpoint ckpt_383.pt is saved...
+Round: 384/500
+Total local training loss is: 2.799285888671875
+Total local training loss is: 2.7988815307617188
+attack:None
+defend:None
+{'accuracy': 0.8315}
+t 384: train_loss = 2.799, norm = 7.600, test_acc = 0.832
+checkpoint ckpt_384.pt is saved...
+Round: 385/500
+Total local training loss is: 2.6161346435546875
+Total local training loss is: 2.6717453002929688
+Total local training loss is: 2.6693038940429688
+attack:None
+defend:None
+{'accuracy': 0.8403}
+t 385: train_loss = 2.652, norm = 7.600, test_acc = 0.840
+checkpoint ckpt_385.pt is saved...
+Round: 386/500
+Total local training loss is: 2.519500732421875
+Total local training loss is: 2.8013153076171875
+Total local training loss is: 2.6496124267578125
+attack:None
+defend:None
+{'accuracy': 0.8377}
+t 386: train_loss = 2.657, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_386.pt is saved...
+Round: 387/500
+Total local training loss is: 2.7610931396484375
+Total local training loss is: 2.6114730834960938
+Total local training loss is: 2.6702499389648438
+Total local training loss is: 2.6375198364257812
+attack:None
+defend:None
+{'accuracy': 0.8374}
+t 387: train_loss = 2.670, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_387.pt is saved...
+Round: 388/500
+Total local training loss is: 2.6646881103515625
+Total local training loss is: 2.6867218017578125
+Total local training loss is: 2.677276611328125
+Total local training loss is: 2.6919631958007812
+attack:None
+defend:None
+{'accuracy': 0.8326}
+t 388: train_loss = 2.680, norm = 7.599, test_acc = 0.833
+checkpoint ckpt_388.pt is saved...
+Round: 389/500
+Total local training loss is: 2.6151580810546875
+Total local training loss is: 2.74725341796875
+Total local training loss is: 2.70721435546875
+attack:None
+defend:None
+{'accuracy': 0.8352}
+t 389: train_loss = 2.690, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_389.pt is saved...
+Round: 390/500
+Total local training loss is: 2.8009872436523438
+Total local training loss is: 2.6530609130859375
+Total local training loss is: 2.7338638305664062
+Total local training loss is: 2.7128982543945312
+attack:None
+defend:None
+{'accuracy': 0.8424}
+t 390: train_loss = 2.725, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_390.pt is saved...
+Round: 391/500
+Total local training loss is: 2.5934066772460938
+Total local training loss is: 2.4224777221679688
+attack:None
+defend:None
+{'accuracy': 0.819}
+t 391: train_loss = 2.508, norm = 7.599, test_acc = 0.819
+checkpoint ckpt_391.pt is saved...
+Round: 392/500
+Total local training loss is: 2.673553466796875
+Total local training loss is: 2.8546066284179688
+Total local training loss is: 2.6347274780273438
+Total local training loss is: 2.6894760131835938
+attack:None
+defend:None
+{'accuracy': 0.842}
+t 392: train_loss = 2.713, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_392.pt is saved...
+Round: 393/500
+Total local training loss is: 2.65277099609375
+Total local training loss is: 2.5562057495117188
+Total local training loss is: 2.5965423583984375
+Total local training loss is: 2.6731109619140625
+attack:None
+defend:None
+{'accuracy': 0.8371}
+t 393: train_loss = 2.620, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_393.pt is saved...
+Round: 394/500
+Total local training loss is: 2.669677734375
+Total local training loss is: 2.6085281372070312
+Total local training loss is: 2.6341934204101562
+attack:None
+defend:None
+{'accuracy': 0.8284}
+t 394: train_loss = 2.637, norm = 7.600, test_acc = 0.828
+checkpoint ckpt_394.pt is saved...
+Round: 395/500
+Total local training loss is: 2.7738876342773438
+Total local training loss is: 2.6781539916992188
+attack:None
+defend:None
+{'accuracy': 0.8241}
+t 395: train_loss = 2.726, norm = 7.600, test_acc = 0.824
+checkpoint ckpt_395.pt is saved...
+Round: 396/500
+Total local training loss is: 2.6800308227539062
+Total local training loss is: 2.7419357299804688
+attack:None
+defend:None
+{'accuracy': 0.8318}
+t 396: train_loss = 2.711, norm = 7.600, test_acc = 0.832
+checkpoint ckpt_396.pt is saved...
+Round: 397/500
+Total local training loss is: 2.6036605834960938
+Total local training loss is: 2.5492706298828125
+Total local training loss is: 2.6085128784179688
+Total local training loss is: 2.679412841796875
+attack:None
+defend:None
+{'accuracy': 0.8378}
+t 397: train_loss = 2.610, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_397.pt is saved...
+Round: 398/500
+Total local training loss is: 2.7194747924804688
+attack:None
+defend:None
+{'accuracy': 0.8044}
+t 398: train_loss = 2.719, norm = 7.600, test_acc = 0.804
+checkpoint ckpt_398.pt is saved...
+Round: 399/500
+Total local training loss is: 2.7835769653320312
+Total local training loss is: 2.6607437133789062
+Total local training loss is: 2.6812744140625
+Total local training loss is: 2.7137832641601562
+attack:None
+defend:None
+{'accuracy': 0.8415}
+t 399: train_loss = 2.710, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_399.pt is saved...
+Round: 400/500
+Total local training loss is: 2.6939544677734375
+Total local training loss is: 2.6435928344726562
+Total local training loss is: 2.6063156127929688
+Total local training loss is: 2.6231307983398438
+Total local training loss is: 2.6505203247070312
+attack:None
+defend:None
+{'accuracy': 0.8364}
+t 400: train_loss = 2.644, norm = 7.600, test_acc = 0.836
+checkpoint ckpt_400.pt is saved...
+Round: 401/500
+Total local training loss is: 2.7087249755859375
+Total local training loss is: 2.7253646850585938
+Total local training loss is: 2.6141510009765625
+attack:None
+defend:None
+{'accuracy': 0.8368}
+t 401: train_loss = 2.683, norm = 7.600, test_acc = 0.837
+checkpoint ckpt_401.pt is saved...
+Round: 402/500
+Total local training loss is: 2.698211669921875
+Total local training loss is: 2.6877212524414062
+Total local training loss is: 2.6439971923828125
+Total local training loss is: 2.7405624389648438
+Total local training loss is: 2.6430130004882812
+attack:None
+defend:None
+{'accuracy': 0.8453}
+t 402: train_loss = 2.683, norm = 7.600, test_acc = 0.845
+checkpoint ckpt_402.pt is saved...
+Round: 403/500
+Total local training loss is: 2.751861572265625
+Total local training loss is: 2.6458587646484375
+Total local training loss is: 2.6305160522460938
+Total local training loss is: 2.6612396240234375
+attack:None
+defend:None
+{'accuracy': 0.8314}
+t 403: train_loss = 2.672, norm = 7.599, test_acc = 0.831
+checkpoint ckpt_403.pt is saved...
+Round: 404/500
+Total local training loss is: 2.56494140625
+Total local training loss is: 2.5986251831054688
+Total local training loss is: 2.7394943237304688
+attack:None
+defend:None
+{'accuracy': 0.8342}
+t 404: train_loss = 2.634, norm = 7.599, test_acc = 0.834
+checkpoint ckpt_404.pt is saved...
+Round: 405/500
+Total local training loss is: 2.6901702880859375
+attack:None
+defend:None
+{'accuracy': 0.8038}
+t 405: train_loss = 2.690, norm = 7.600, test_acc = 0.804
+checkpoint ckpt_405.pt is saved...
+Round: 406/500
+Total local training loss is: 2.6605224609375
+Total local training loss is: 2.7994155883789062
+Total local training loss is: 2.789794921875
+attack:None
+defend:None
+{'accuracy': 0.8393}
+t 406: train_loss = 2.750, norm = 7.600, test_acc = 0.839
+checkpoint ckpt_406.pt is saved...
+Round: 407/500
+Total local training loss is: 2.7242507934570312
+Total local training loss is: 2.7020263671875
+attack:None
+defend:None
+{'accuracy': 0.8281}
+t 407: train_loss = 2.713, norm = 7.600, test_acc = 0.828
+checkpoint ckpt_407.pt is saved...
+Round: 408/500
+Total local training loss is: 2.6263198852539062
+Total local training loss is: 2.5634918212890625
+attack:None
+defend:None
+{'accuracy': 0.8348}
+t 408: train_loss = 2.595, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_408.pt is saved...
+Round: 409/500
+Total local training loss is: 2.6112594604492188
+Total local training loss is: 2.866973876953125
+Total local training loss is: 2.69769287109375
+attack:None
+defend:None
+{'accuracy': 0.8416}
+t 409: train_loss = 2.725, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_409.pt is saved...
+Round: 410/500
+Total local training loss is: 2.5978622436523438
+Total local training loss is: 2.6698989868164062
+attack:None
+defend:None
+{'accuracy': 0.8258}
+t 410: train_loss = 2.634, norm = 7.599, test_acc = 0.826
+checkpoint ckpt_410.pt is saved...
+Round: 411/500
+Total local training loss is: 2.7410125732421875
+Total local training loss is: 2.667724609375
+Total local training loss is: 2.6021957397460938
+Total local training loss is: 2.6105194091796875
+attack:None
+defend:None
+{'accuracy': 0.8378}
+t 411: train_loss = 2.655, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_411.pt is saved...
+Round: 412/500
+Total local training loss is: 2.6355133056640625
+Total local training loss is: 2.6285781860351562
+Total local training loss is: 2.6750869750976562
+Total local training loss is: 2.6315536499023438
+Total local training loss is: 2.6744003295898438
+attack:None
+defend:None
+{'accuracy': 0.8437}
+t 412: train_loss = 2.649, norm = 7.600, test_acc = 0.844
+checkpoint ckpt_412.pt is saved...
+Round: 413/500
+Total local training loss is: 2.6847457885742188
+Total local training loss is: 2.740325927734375
+Total local training loss is: 2.6440048217773438
+Total local training loss is: 2.6665878295898438
+Total local training loss is: 2.6536712646484375
+attack:None
+defend:None
+{'accuracy': 0.8376}
+t 413: train_loss = 2.678, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_413.pt is saved...
+Round: 414/500
+Total local training loss is: 2.622528076171875
+Total local training loss is: 2.6478042602539062
+Total local training loss is: 2.6059722900390625
+Total local training loss is: 2.646087646484375
+Total local training loss is: 2.6868515014648438
+Total local training loss is: 2.72930908203125
+attack:None
+defend:None
+{'accuracy': 0.8428}
+t 414: train_loss = 2.656, norm = 7.600, test_acc = 0.843
+checkpoint ckpt_414.pt is saved...
+Round: 415/500
+Total local training loss is: 2.6180191040039062
+Total local training loss is: 2.6420135498046875
+attack:None
+defend:None
+{'accuracy': 0.8356}
+t 415: train_loss = 2.630, norm = 7.599, test_acc = 0.836
+checkpoint ckpt_415.pt is saved...
+Round: 416/500
+Total local training loss is: 2.6090164184570312
+Total local training loss is: 2.6208419799804688
+Total local training loss is: 2.66021728515625
+Total local training loss is: 2.62493896484375
+attack:None
+defend:None
+{'accuracy': 0.8432}
+t 416: train_loss = 2.629, norm = 7.600, test_acc = 0.843
+checkpoint ckpt_416.pt is saved...
+Round: 417/500
+Total local training loss is: 2.6370315551757812
+Total local training loss is: 2.5769195556640625
+attack:None
+defend:None
+{'accuracy': 0.8346}
+t 417: train_loss = 2.607, norm = 7.599, test_acc = 0.835
+checkpoint ckpt_417.pt is saved...
+Round: 418/500
+Total local training loss is: 2.6491775512695312
+Total local training loss is: 2.56353759765625
+Total local training loss is: 2.5710525512695312
+attack:None
+defend:None
+{'accuracy': 0.8318}
+t 418: train_loss = 2.595, norm = 7.599, test_acc = 0.832
+checkpoint ckpt_418.pt is saved...
+Round: 419/500
+Total local training loss is: 2.6319351196289062
+Total local training loss is: 2.76678466796875
+Total local training loss is: 2.70977783203125
+Total local training loss is: 2.658538818359375
+attack:None
+defend:None
+{'accuracy': 0.8378}
+t 419: train_loss = 2.692, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_419.pt is saved...
+Round: 420/500
+Total local training loss is: 2.6832427978515625
+Total local training loss is: 2.6187362670898438
+Total local training loss is: 2.7289886474609375
+Total local training loss is: 2.6413497924804688
+attack:None
+defend:None
+{'accuracy': 0.8376}
+t 420: train_loss = 2.668, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_420.pt is saved...
+Round: 421/500
+Total local training loss is: 2.5291748046875
+Total local training loss is: 2.6409912109375
+Total local training loss is: 2.6637954711914062
+Total local training loss is: 2.6960678100585938
+attack:None
+defend:None
+{'accuracy': 0.8423}
+t 421: train_loss = 2.633, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_421.pt is saved...
+Round: 422/500
+Total local training loss is: 2.6728591918945312
+attack:None
+defend:None
+{'accuracy': 0.8203}
+t 422: train_loss = 2.673, norm = 7.600, test_acc = 0.820
+checkpoint ckpt_422.pt is saved...
+Round: 423/500
+Total local training loss is: 2.7539443969726562
+Total local training loss is: 2.7503585815429688
+Total local training loss is: 2.6727371215820312
+Total local training loss is: 2.8183364868164062
+Total local training loss is: 2.6115341186523438
+Total local training loss is: 2.6305160522460938
+attack:None
+defend:None
+{'accuracy': 0.8438}
+t 423: train_loss = 2.706, norm = 7.600, test_acc = 0.844
+checkpoint ckpt_423.pt is saved...
+Round: 424/500
+Total local training loss is: 2.5895004272460938
+Total local training loss is: 2.6605606079101562
+Total local training loss is: 2.6888198852539062
+Total local training loss is: 2.66534423828125
+attack:None
+defend:None
+{'accuracy': 0.8439}
+t 424: train_loss = 2.651, norm = 7.600, test_acc = 0.844
+checkpoint ckpt_424.pt is saved...
+Round: 425/500
+Total local training loss is: 2.5318145751953125
+Total local training loss is: 2.6230087280273438
+Total local training loss is: 2.7187652587890625
+attack:None
+defend:None
+{'accuracy': 0.8395}
+t 425: train_loss = 2.625, norm = 7.600, test_acc = 0.840
+checkpoint ckpt_425.pt is saved...
+Round: 426/500
+Total local training loss is: 2.6591339111328125
+Total local training loss is: 2.69427490234375
+attack:None
+defend:None
+{'accuracy': 0.8325}
+t 426: train_loss = 2.677, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_426.pt is saved...
+Round: 427/500
+Total local training loss is: 2.5359878540039062
+attack:None
+defend:None
+{'accuracy': 0.8109}
+t 427: train_loss = 2.536, norm = 7.599, test_acc = 0.811
+checkpoint ckpt_427.pt is saved...
+Round: 428/500
+Total local training loss is: 2.7244415283203125
+Total local training loss is: 2.631927490234375
+Total local training loss is: 2.7915191650390625
+Total local training loss is: 2.5772705078125
+Total local training loss is: 2.825592041015625
+attack:None
+defend:None
+{'accuracy': 0.8416}
+t 428: train_loss = 2.710, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_428.pt is saved...
+Round: 429/500
+Total local training loss is: 2.6193008422851562
+Total local training loss is: 2.5799713134765625
+Total local training loss is: 2.6234817504882812
+attack:None
+defend:None
+{'accuracy': 0.833}
+t 429: train_loss = 2.608, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_429.pt is saved...
+Round: 430/500
+Total local training loss is: 2.7191925048828125
+attack:None
+defend:None
+{'accuracy': 0.8201}
+t 430: train_loss = 2.719, norm = 7.600, test_acc = 0.820
+checkpoint ckpt_430.pt is saved...
+Round: 431/500
+Total local training loss is: 2.7255935668945312
+Total local training loss is: 2.7903060913085938
+Total local training loss is: 2.6955490112304688
+Total local training loss is: 2.6762161254882812
+Total local training loss is: 2.57025146484375
+attack:None
+defend:None
+{'accuracy': 0.8378}
+t 431: train_loss = 2.692, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_431.pt is saved...
+Round: 432/500
+Total local training loss is: 2.7170486450195312
+Total local training loss is: 2.5167083740234375
+Total local training loss is: 2.7160568237304688
+attack:None
+defend:None
+{'accuracy': 0.8389}
+t 432: train_loss = 2.650, norm = 7.600, test_acc = 0.839
+checkpoint ckpt_432.pt is saved...
+Round: 433/500
+Total local training loss is: 2.6403121948242188
+Total local training loss is: 2.621307373046875
+Total local training loss is: 2.7309188842773438
+attack:None
+defend:None
+{'accuracy': 0.8335}
+t 433: train_loss = 2.664, norm = 7.600, test_acc = 0.834
+checkpoint ckpt_433.pt is saved...
+Round: 434/500
+Total local training loss is: 2.5341567993164062
+Total local training loss is: 2.7866973876953125
+Total local training loss is: 2.5609130859375
+Total local training loss is: 2.68682861328125
+Total local training loss is: 2.7410964965820312
+attack:None
+defend:None
+{'accuracy': 0.8452}
+t 434: train_loss = 2.662, norm = 7.600, test_acc = 0.845
+checkpoint ckpt_434.pt is saved...
+Round: 435/500
+Total local training loss is: 2.6133041381835938
+Total local training loss is: 2.5900726318359375
+Total local training loss is: 2.6880950927734375
+attack:None
+defend:None
+{'accuracy': 0.836}
+t 435: train_loss = 2.630, norm = 7.600, test_acc = 0.836
+checkpoint ckpt_435.pt is saved...
+Round: 436/500
+Total local training loss is: 2.5758438110351562
+Total local training loss is: 2.7103805541992188
+Total local training loss is: 2.5669174194335938
+attack:None
+defend:None
+{'accuracy': 0.8378}
+t 436: train_loss = 2.618, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_436.pt is saved...
+Round: 437/500
+Total local training loss is: 2.74761962890625
+Total local training loss is: 2.62835693359375
+Total local training loss is: 2.6694488525390625
+Total local training loss is: 2.7231826782226562
+attack:None
+defend:None
+{'accuracy': 0.8454}
+t 437: train_loss = 2.692, norm = 7.600, test_acc = 0.845
+checkpoint ckpt_437.pt is saved...
+Round: 438/500
+Total local training loss is: 2.5477981567382812
+Total local training loss is: 2.6088333129882812
+Total local training loss is: 2.6183242797851562
+Total local training loss is: 2.6071548461914062
+attack:None
+defend:None
+{'accuracy': 0.8419}
+t 438: train_loss = 2.596, norm = 7.599, test_acc = 0.842
+checkpoint ckpt_438.pt is saved...
+Round: 439/500
+Total local training loss is: 2.644744873046875
+Total local training loss is: 2.6017227172851562
+Total local training loss is: 2.5712051391601562
+Total local training loss is: 2.6735458374023438
+Total local training loss is: 2.662994384765625
+attack:None
+defend:None
+{'accuracy': 0.8461}
+t 439: train_loss = 2.631, norm = 7.600, test_acc = 0.846
+checkpoint ckpt_439.pt is saved...
+Round: 440/500
+Total local training loss is: 2.7043685913085938
+Total local training loss is: 2.6546096801757812
+Total local training loss is: 2.6607742309570312
+Total local training loss is: 2.58636474609375
+attack:None
+defend:None
+{'accuracy': 0.8432}
+t 440: train_loss = 2.652, norm = 7.600, test_acc = 0.843
+checkpoint ckpt_440.pt is saved...
+Round: 441/500
+Total local training loss is: 2.6536636352539062
+Total local training loss is: 2.636566162109375
+Total local training loss is: 2.7220840454101562
+attack:None
+defend:None
+{'accuracy': 0.8445}
+t 441: train_loss = 2.671, norm = 7.599, test_acc = 0.845
+checkpoint ckpt_441.pt is saved...
+Round: 442/500
+Total local training loss is: 2.6618423461914062
+Total local training loss is: 2.6021652221679688
+Total local training loss is: 2.6334228515625
+Total local training loss is: 2.6357650756835938
+attack:None
+defend:None
+{'accuracy': 0.8468}
+t 442: train_loss = 2.633, norm = 7.600, test_acc = 0.847
+checkpoint ckpt_442.pt is saved...
+Round: 443/500
+Total local training loss is: 2.6136016845703125
+Total local training loss is: 2.6052627563476562
+Total local training loss is: 2.6631011962890625
+Total local training loss is: 2.6429367065429688
+Total local training loss is: 2.5523223876953125
+attack:None
+defend:None
+{'accuracy': 0.8364}
+t 443: train_loss = 2.615, norm = 7.600, test_acc = 0.836
+checkpoint ckpt_443.pt is saved...
+Round: 444/500
+Total local training loss is: 2.5788955688476562
+Total local training loss is: 2.6494979858398438
+Total local training loss is: 2.5886306762695312
+Total local training loss is: 2.8234710693359375
+Total local training loss is: 2.5692291259765625
+Total local training loss is: 2.7250289916992188
+Total local training loss is: 2.6303329467773438
+attack:None
+defend:None
+{'accuracy': 0.8421}
+t 444: train_loss = 2.652, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_444.pt is saved...
+Round: 445/500
+Total local training loss is: 2.6566696166992188
+Total local training loss is: 2.5937347412109375
+Total local training loss is: 2.5927505493164062
+Total local training loss is: 2.6272659301757812
+attack:None
+defend:None
+{'accuracy': 0.843}
+t 445: train_loss = 2.618, norm = 7.599, test_acc = 0.843
+checkpoint ckpt_445.pt is saved...
+Round: 446/500
+Total local training loss is: 2.5635986328125
+Total local training loss is: 2.506622314453125
+Total local training loss is: 2.6215133666992188
+Total local training loss is: 2.7393035888671875
+Total local training loss is: 2.5536422729492188
+attack:None
+defend:None
+{'accuracy': 0.844}
+t 446: train_loss = 2.597, norm = 7.599, test_acc = 0.844
+checkpoint ckpt_446.pt is saved...
+Round: 447/500
+Total local training loss is: 2.6163330078125
+Total local training loss is: 2.574066162109375
+Total local training loss is: 2.5554580688476562
+Total local training loss is: 2.5634002685546875
+Total local training loss is: 2.7231369018554688
+attack:None
+defend:None
+{'accuracy': 0.847}
+t 447: train_loss = 2.606, norm = 7.600, test_acc = 0.847
+checkpoint ckpt_447.pt is saved...
+Round: 448/500
+Total local training loss is: 2.7045440673828125
+Total local training loss is: 2.809600830078125
+attack:None
+defend:None
+{'accuracy': 0.8257}
+t 448: train_loss = 2.757, norm = 7.600, test_acc = 0.826
+checkpoint ckpt_448.pt is saved...
+Round: 449/500
+Total local training loss is: 2.6320114135742188
+Total local training loss is: 2.64056396484375
+Total local training loss is: 2.7049102783203125
+Total local training loss is: 2.6959075927734375
+Total local training loss is: 2.7155914306640625
+attack:None
+defend:None
+{'accuracy': 0.8407}
+t 449: train_loss = 2.678, norm = 7.600, test_acc = 0.841
+checkpoint ckpt_449.pt is saved...
+Round: 450/500
+Total local training loss is: 2.599029541015625
+Total local training loss is: 2.7405853271484375
+Total local training loss is: 2.6858367919921875
+attack:None
+defend:None
+{'accuracy': 0.8438}
+t 450: train_loss = 2.675, norm = 7.600, test_acc = 0.844
+checkpoint ckpt_450.pt is saved...
+Round: 451/500
+Total local training loss is: 2.6338577270507812
+attack:None
+defend:None
+{'accuracy': 0.8198}
+t 451: train_loss = 2.634, norm = 7.599, test_acc = 0.820
+checkpoint ckpt_451.pt is saved...
+Round: 452/500
+Total local training loss is: 2.688446044921875
+Total local training loss is: 2.7820587158203125
+attack:None
+defend:None
+{'accuracy': 0.8341}
+t 452: train_loss = 2.735, norm = 7.600, test_acc = 0.834
+checkpoint ckpt_452.pt is saved...
+Round: 453/500
+Total local training loss is: 2.5955734252929688
+Total local training loss is: 2.6928863525390625
+attack:None
+defend:None
+{'accuracy': 0.8396}
+t 453: train_loss = 2.644, norm = 7.599, test_acc = 0.840
+checkpoint ckpt_453.pt is saved...
+Round: 454/500
+Total local training loss is: 2.7295379638671875
+Total local training loss is: 2.5180206298828125
+Total local training loss is: 2.7129287719726562
+attack:None
+defend:None
+{'accuracy': 0.8352}
+t 454: train_loss = 2.653, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_454.pt is saved...
+Round: 455/500
+Total local training loss is: 2.6810379028320312
+Total local training loss is: 2.659423828125
+Total local training loss is: 2.6064682006835938
+Total local training loss is: 2.5645751953125
+attack:None
+defend:None
+{'accuracy': 0.8432}
+t 455: train_loss = 2.628, norm = 7.600, test_acc = 0.843
+checkpoint ckpt_455.pt is saved...
+Round: 456/500
+Total local training loss is: 2.61798095703125
+Total local training loss is: 2.62890625
+Total local training loss is: 2.6367721557617188
+Total local training loss is: 2.5901412963867188
+Total local training loss is: 2.552215576171875
+Total local training loss is: 2.6504287719726562
+attack:None
+defend:None
+{'accuracy': 0.8423}
+t 456: train_loss = 2.613, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_456.pt is saved...
+Round: 457/500
+Total local training loss is: 2.6179885864257812
+Total local training loss is: 2.6164627075195312
+Total local training loss is: 2.6022720336914062
+Total local training loss is: 2.5413970947265625
+attack:None
+defend:None
+{'accuracy': 0.8446}
+t 457: train_loss = 2.595, norm = 7.599, test_acc = 0.845
+checkpoint ckpt_457.pt is saved...
+Round: 458/500
+Total local training loss is: 2.8395843505859375
+Total local training loss is: 2.6520156860351562
+Total local training loss is: 2.5685501098632812
+attack:None
+defend:None
+{'accuracy': 0.8362}
+t 458: train_loss = 2.687, norm = 7.600, test_acc = 0.836
+checkpoint ckpt_458.pt is saved...
+Round: 459/500
+Total local training loss is: 2.6262664794921875
+Total local training loss is: 2.6066131591796875
+attack:None
+defend:None
+{'accuracy': 0.8445}
+t 459: train_loss = 2.616, norm = 7.599, test_acc = 0.845
+checkpoint ckpt_459.pt is saved...
+Round: 460/500
+Total local training loss is: 2.6521987915039062
+Total local training loss is: 2.7075347900390625
+attack:None
+defend:None
+{'accuracy': 0.8343}
+t 460: train_loss = 2.680, norm = 7.600, test_acc = 0.834
+checkpoint ckpt_460.pt is saved...
+Round: 461/500
+Total local training loss is: 2.5873641967773438
+Total local training loss is: 2.6818313598632812
+Total local training loss is: 2.552459716796875
+Total local training loss is: 2.516845703125
+Total local training loss is: 2.681121826171875
+Total local training loss is: 2.5741043090820312
+attack:None
+defend:None
+{'accuracy': 0.8435}
+t 461: train_loss = 2.599, norm = 7.600, test_acc = 0.844
+checkpoint ckpt_461.pt is saved...
+Round: 462/500
+Total local training loss is: 2.7325057983398438
+Total local training loss is: 2.5833358764648438
+Total local training loss is: 2.6056747436523438
+attack:None
+defend:None
+{'accuracy': 0.8411}
+t 462: train_loss = 2.641, norm = 7.599, test_acc = 0.841
+checkpoint ckpt_462.pt is saved...
+Round: 463/500
+Total local training loss is: 2.6296005249023438
+Total local training loss is: 2.66058349609375
+attack:None
+defend:None
+{'accuracy': 0.8419}
+t 463: train_loss = 2.645, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_463.pt is saved...
+Round: 464/500
+Total local training loss is: 2.7027206420898438
+Total local training loss is: 2.715545654296875
+Total local training loss is: 2.5590057373046875
+Total local training loss is: 2.58917236328125
+attack:None
+defend:None
+{'accuracy': 0.8426}
+t 464: train_loss = 2.642, norm = 7.600, test_acc = 0.843
+checkpoint ckpt_464.pt is saved...
+Round: 465/500
+Total local training loss is: 2.6747207641601562
+Total local training loss is: 2.6876449584960938
+Total local training loss is: 2.5428543090820312
+Total local training loss is: 2.6221389770507812
+attack:None
+defend:None
+{'accuracy': 0.8463}
+t 465: train_loss = 2.632, norm = 7.600, test_acc = 0.846
+checkpoint ckpt_465.pt is saved...
+Round: 466/500
+Total local training loss is: 2.62042236328125
+Total local training loss is: 2.5504379272460938
+Total local training loss is: 2.5678939819335938
+Total local training loss is: 2.4901123046875
+attack:None
+defend:None
+{'accuracy': 0.8379}
+t 466: train_loss = 2.557, norm = 7.599, test_acc = 0.838
+checkpoint ckpt_466.pt is saved...
+Round: 467/500
+Total local training loss is: 2.6774673461914062
+Total local training loss is: 2.5682525634765625
+attack:None
+defend:None
+{'accuracy': 0.8299}
+t 467: train_loss = 2.623, norm = 7.599, test_acc = 0.830
+checkpoint ckpt_467.pt is saved...
+Round: 468/500
+Total local training loss is: 2.6127243041992188
+Total local training loss is: 2.607269287109375
+Total local training loss is: 2.6034774780273438
+Total local training loss is: 2.5506134033203125
+attack:None
+defend:None
+{'accuracy': 0.8327}
+t 468: train_loss = 2.594, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_468.pt is saved...
+Round: 469/500
+Total local training loss is: 2.5828399658203125
+Total local training loss is: 2.5398178100585938
+Total local training loss is: 2.5746841430664062
+attack:None
+defend:None
+{'accuracy': 0.8352}
+t 469: train_loss = 2.566, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_469.pt is saved...
+Round: 470/500
+Total local training loss is: 2.6142578125
+Total local training loss is: 2.6328964233398438
+Total local training loss is: 2.6505355834960938
+Total local training loss is: 2.6964035034179688
+attack:None
+defend:None
+{'accuracy': 0.8394}
+t 470: train_loss = 2.649, norm = 7.600, test_acc = 0.839
+checkpoint ckpt_470.pt is saved...
+Round: 471/500
+Total local training loss is: 2.4296875
+Total local training loss is: 2.638458251953125
+Total local training loss is: 2.5987091064453125
+Total local training loss is: 2.6442489624023438
+Total local training loss is: 2.468231201171875
+Total local training loss is: 2.5680770874023438
+attack:None
+defend:None
+{'accuracy': 0.8418}
+t 471: train_loss = 2.558, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_471.pt is saved...
+Round: 472/500
+Total local training loss is: 2.4350509643554688
+attack:None
+defend:None
+{'accuracy': 0.8225}
+t 472: train_loss = 2.435, norm = 7.599, test_acc = 0.823
+checkpoint ckpt_472.pt is saved...
+Round: 473/500
+Total local training loss is: 2.79986572265625
+Total local training loss is: 2.6227569580078125
+attack:None
+defend:None
+{'accuracy': 0.8331}
+t 473: train_loss = 2.711, norm = 7.600, test_acc = 0.833
+checkpoint ckpt_473.pt is saved...
+Round: 474/500
+Total local training loss is: 2.62078857421875
+Total local training loss is: 2.61907958984375
+Total local training loss is: 2.6615753173828125
+attack:None
+defend:None
+{'accuracy': 0.834}
+t 474: train_loss = 2.634, norm = 7.600, test_acc = 0.834
+checkpoint ckpt_474.pt is saved...
+Round: 475/500
+Total local training loss is: 2.6901016235351562
+Total local training loss is: 2.6406631469726562
+Total local training loss is: 2.5659255981445312
+attack:None
+defend:None
+{'accuracy': 0.8348}
+t 475: train_loss = 2.632, norm = 7.600, test_acc = 0.835
+checkpoint ckpt_475.pt is saved...
+Round: 476/500
+Total local training loss is: 2.6502761840820312
+Total local training loss is: 2.6405792236328125
+attack:None
+defend:None
+{'accuracy': 0.8292}
+t 476: train_loss = 2.645, norm = 7.600, test_acc = 0.829
+checkpoint ckpt_476.pt is saved...
+Round: 477/500
+Total local training loss is: 2.4664688110351562
+Total local training loss is: 2.718597412109375
+Total local training loss is: 2.6791839599609375
+attack:None
+defend:None
+{'accuracy': 0.8383}
+t 477: train_loss = 2.621, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_477.pt is saved...
+Round: 478/500
+Total local training loss is: 2.6181869506835938
+Total local training loss is: 2.6912765502929688
+Total local training loss is: 2.7640151977539062
+Total local training loss is: 2.6498794555664062
+attack:None
+defend:None
+{'accuracy': 0.8398}
+t 478: train_loss = 2.681, norm = 7.600, test_acc = 0.840
+checkpoint ckpt_478.pt is saved...
+Round: 479/500
+attack:None
+defend:None
+{'accuracy': 0.8398}
+t 479: train_loss = 100.000, norm = 100.000, test_acc = 0.840
+checkpoint ckpt_479.pt is saved...
+Round: 480/500
+Total local training loss is: 2.5713043212890625
+Total local training loss is: 2.5647964477539062
+Total local training loss is: 2.5926589965820312
+attack:None
+defend:None
+{'accuracy': 0.8382}
+t 480: train_loss = 2.576, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_480.pt is saved...
+Round: 481/500
+Total local training loss is: 2.6263046264648438
+Total local training loss is: 2.6404266357421875
+Total local training loss is: 2.5607528686523438
+attack:None
+defend:None
+{'accuracy': 0.8364}
+t 481: train_loss = 2.609, norm = 7.600, test_acc = 0.836
+checkpoint ckpt_481.pt is saved...
+Round: 482/500
+Total local training loss is: 2.5048751831054688
+Total local training loss is: 2.6517105102539062
+Total local training loss is: 2.655914306640625
+Total local training loss is: 2.6454238891601562
+attack:None
+defend:None
+{'accuracy': 0.8381}
+t 482: train_loss = 2.614, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_482.pt is saved...
+Round: 483/500
+Total local training loss is: 2.6902389526367188
+Total local training loss is: 2.5558929443359375
+Total local training loss is: 2.5059661865234375
+Total local training loss is: 2.6283340454101562
+attack:None
+defend:None
+{'accuracy': 0.8372}
+t 483: train_loss = 2.595, norm = 7.599, test_acc = 0.837
+checkpoint ckpt_483.pt is saved...
+Round: 484/500
+Total local training loss is: 2.58673095703125
+Total local training loss is: 2.662841796875
+Total local training loss is: 2.4644393920898438
+attack:None
+defend:None
+{'accuracy': 0.8403}
+t 484: train_loss = 2.571, norm = 7.600, test_acc = 0.840
+checkpoint ckpt_484.pt is saved...
+Round: 485/500
+Total local training loss is: 2.5966567993164062
+Total local training loss is: 2.5378570556640625
+Total local training loss is: 2.5146636962890625
+Total local training loss is: 2.598052978515625
+Total local training loss is: 2.6204376220703125
+attack:None
+defend:None
+{'accuracy': 0.8445}
+t 485: train_loss = 2.574, norm = 7.600, test_acc = 0.845
+checkpoint ckpt_485.pt is saved...
+Round: 486/500
+Total local training loss is: 2.4860000610351562
+Total local training loss is: 2.7039871215820312
+Total local training loss is: 2.5304641723632812
+attack:None
+defend:None
+{'accuracy': 0.8422}
+t 486: train_loss = 2.573, norm = 7.599, test_acc = 0.842
+checkpoint ckpt_486.pt is saved...
+Round: 487/500
+Total local training loss is: 2.7154159545898438
+Total local training loss is: 2.76019287109375
+Total local training loss is: 2.5416946411132812
+Total local training loss is: 2.7044143676757812
+Total local training loss is: 2.6005401611328125
+Total local training loss is: 2.4326095581054688
+Total local training loss is: 2.52337646484375
+attack:None
+defend:None
+{'accuracy': 0.843}
+t 487: train_loss = 2.611, norm = 7.600, test_acc = 0.843
+checkpoint ckpt_487.pt is saved...
+Round: 488/500
+Total local training loss is: 2.507415771484375
+attack:None
+defend:None
+{'accuracy': 0.8236}
+t 488: train_loss = 2.507, norm = 7.599, test_acc = 0.824
+checkpoint ckpt_488.pt is saved...
+Round: 489/500
+Total local training loss is: 2.8006973266601562
+Total local training loss is: 2.534576416015625
+Total local training loss is: 2.8062057495117188
+attack:None
+defend:None
+{'accuracy': 0.8359}
+t 489: train_loss = 2.714, norm = 7.600, test_acc = 0.836
+checkpoint ckpt_489.pt is saved...
+Round: 490/500
+Total local training loss is: 2.57379150390625
+Total local training loss is: 2.64654541015625
+Total local training loss is: 2.5585479736328125
+Total local training loss is: 2.5492782592773438
+Total local training loss is: 2.6533584594726562
+Total local training loss is: 2.6932754516601562
+attack:None
+defend:None
+{'accuracy': 0.8445}
+t 490: train_loss = 2.612, norm = 7.600, test_acc = 0.845
+checkpoint ckpt_490.pt is saved...
+Round: 491/500
+Total local training loss is: 2.6156005859375
+Total local training loss is: 2.429290771484375
+attack:None
+defend:None
+{'accuracy': 0.8328}
+t 491: train_loss = 2.522, norm = 7.599, test_acc = 0.833
+checkpoint ckpt_491.pt is saved...
+Round: 492/500
+Total local training loss is: 2.5955047607421875
+Total local training loss is: 2.693023681640625
+Total local training loss is: 2.6722183227539062
+attack:None
+defend:None
+{'accuracy': 0.8293}
+t 492: train_loss = 2.654, norm = 7.600, test_acc = 0.829
+checkpoint ckpt_492.pt is saved...
+Round: 493/500
+Total local training loss is: 2.5856475830078125
+Total local training loss is: 2.6931610107421875
+Total local training loss is: 2.7017135620117188
+attack:None
+defend:None
+{'accuracy': 0.8311}
+t 493: train_loss = 2.660, norm = 7.600, test_acc = 0.831
+checkpoint ckpt_493.pt is saved...
+Round: 494/500
+Total local training loss is: 2.7430191040039062
+Total local training loss is: 2.5914764404296875
+Total local training loss is: 2.6507949829101562
+Total local training loss is: 2.65966796875
+attack:None
+defend:None
+{'accuracy': 0.852}
+t 494: train_loss = 2.661, norm = 7.600, test_acc = 0.852
+checkpoint ckpt_494.pt is saved...
+Round: 495/500
+Total local training loss is: 2.5243301391601562
+Total local training loss is: 2.6145553588867188
+Total local training loss is: 2.5519943237304688
+Total local training loss is: 2.4349822998046875
+Total local training loss is: 2.5544967651367188
+Total local training loss is: 2.6052398681640625
+Total local training loss is: 2.6307830810546875
+attack:None
+defend:None
+{'accuracy': 0.8438}
+t 495: train_loss = 2.559, norm = 7.600, test_acc = 0.844
+checkpoint ckpt_495.pt is saved...
+Round: 496/500
+Total local training loss is: 2.5554351806640625
+Total local training loss is: 2.5731735229492188
+Total local training loss is: 2.5947494506835938
+Total local training loss is: 2.5643081665039062
+Total local training loss is: 2.5494155883789062
+attack:None
+defend:None
+{'accuracy': 0.8455}
+t 496: train_loss = 2.567, norm = 7.600, test_acc = 0.846
+checkpoint ckpt_496.pt is saved...
+Round: 497/500
+Total local training loss is: 2.5368804931640625
+Total local training loss is: 2.6696395874023438
+Total local training loss is: 2.6686859130859375
+Total local training loss is: 2.6401596069335938
+attack:None
+defend:None
+{'accuracy': 0.8415}
+t 497: train_loss = 2.629, norm = 7.600, test_acc = 0.842
+checkpoint ckpt_497.pt is saved...
+Round: 498/500
+Total local training loss is: 2.7483291625976562
+Total local training loss is: 2.5367889404296875
+attack:None
+defend:None
+{'accuracy': 0.8379}
+t 498: train_loss = 2.643, norm = 7.600, test_acc = 0.838
+checkpoint ckpt_498.pt is saved...
+Round: 499/500
+Total local training loss is: 2.7286834716796875
+Total local training loss is: 2.7380828857421875
+Total local training loss is: 2.554412841796875
+Total local training loss is: 2.6360626220703125
+attack:None
+defend:None
+{'accuracy': 0.8398}
+t 499: train_loss = 2.664, norm = 7.600, test_acc = 0.840
+checkpoint ckpt_499.pt is saved...
+repeated scores: [0.852]
+avg of the scores 0.852

@@ -1,0 +1,42 @@
+###########################################
+############# global argument #############
+###########################################
+
+pub_set: 10 # number of data in validation set
+num_users: 10 # number of users: K
+num_selected_users: 10 # number of selected users: 100, for shakespeare, it is 10
+round: 3 # rounds of training
+
+###########################################
+##global server update rule hyperparameter#
+###########################################
+
+global_momentum: 1 # global momentum
+
+###########################################
+############# local argument ##############
+###########################################
+
+tau: 1 # number of local epochs
+batch_size: 256 # local batch size
+test_batch_size: 64
+local_lr: 2e-05 # local learning rate
+
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_epsilon: 1e-08
+
+clip: 1 # clipping threshold
+
+###########################################
+#####communication network arguments#######
+###########################################
+
+topology: 'disconnected' # topology name
+
+##########
+attack: None
+defend: None
+
+##### For BERT
+max_seq_length: 128
