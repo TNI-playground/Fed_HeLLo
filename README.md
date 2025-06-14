@@ -1,4 +1,4 @@
-# Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation
+# 👋 Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation
 
 **Official Code for the paper accepted to *IEEE Transactions on Neural Networks and Learning Systems (TNNLS)***
 
