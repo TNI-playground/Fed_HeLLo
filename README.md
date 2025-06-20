@@ -54,7 +54,12 @@ bash run-cifar100.sh
 If you find this work useful for your research, please cite our paper:
 
 ```bibtext
-TBD
+@article{zhang2025fed,
+  title={Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation},
+  author={Zhang, Zikai and Liu, Ping and Xu, Jiahao and Hu, Rui},
+  journal={arXiv preprint arXiv:2506.12213},
+  year={2025}
+}
 ```
 
 ---
