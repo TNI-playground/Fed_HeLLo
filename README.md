@@ -55,10 +55,11 @@ If you find this work useful for your research, please cite our paper:
 
 ```bibtext
 @article{zhang2025fed,
-  title={Fed-HeLLo: Efficient Federated Foundation Model Fine-Tuning with Heterogeneous LoRA Allocation},
+  title={Fed-hello: Efficient federated foundation model fine-tuning with heterogeneous lora allocation},
   author={Zhang, Zikai and Liu, Ping and Xu, Jiahao and Hu, Rui},
-  journal={arXiv preprint arXiv:2506.12213},
-  year={2025}
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2025},
+  publisher={IEEE}
 }
 ```
 
